@@ -1,0 +1,158 @@
+#page-login {
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+
+    width: 50%;
+    height: 100vh;
+
+    animation-name: floor;
+    animation-duration: 3s;
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      background: #ff0000;
+      width: 257px;
+      height: 95px;
+      margin-bottom: 32px;
+
+      h1 {
+        color: white;
+        font-size: 75px;
+        font-family: fantasy;
+      }
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      animation-name: fade;
+      animation-duration: 6s;
+
+      .title {
+        color: #ff0000;
+        font-size: 22pt;
+        align-self: flex-start;
+        padding: 0 0 0 25px;
+      }
+
+      .sub-title {
+        color: #84848d;
+        font-size: 16pt;
+        align-self: flex-start;
+        padding: 0 25px 10px 25px;
+      }
+
+      input {
+        padding: 0 25px;
+        border-radius: 38px;
+        width: 383px;
+        height: 73px;
+        font-size: 16pt;
+        color: #84848d;
+        margin: 10px 0;
+        outline: none;
+      }
+
+      .options {
+        display: flex;
+        justify-content: space-around;
+
+        font-size: 14pt;
+        width: 100%;
+        color: #84848d;
+        margin: 10px 0;
+
+        .sublin {
+          text-decoration: underline;
+          text-decoration-color: #ff0000;
+          cursor: pointer;
+
+          &:hover {
+            opacity: 0.7;
+          }
+        }
+      }
+
+      button {
+        border: 0;
+        border-radius: 38px;
+        width: 383px;
+        height: 65px;
+        background: #ff0000;
+        color: white;
+        font-size: 20pt;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+
+      p {
+        color: #84848d;
+        margin: 10px 0 0 0;
+        display: flex;
+        gap: 5px;
+        font-size: 14pt;
+
+        > div {
+          color: #ff0000;
+
+          &:hover {
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+
+  aside {
+    height: 100vh;
+    float: right;
+    width: 50%;
+
+    animation-name: fade;
+    animation-duration: 1s;
+
+    img {
+      width: 100%;
+      height: 100%;
+      mask-image: linear-gradient(to right, transparent 0%, #000 100%);
+    }
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes floor {
+  0% {
+    height: 160vh;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  50% {
+    height: 160vh;
+    width: 50%;
+    margin-bottom: 0;
+  }
+}
