@@ -1,176 +1,160 @@
-@import '../../styles/variables.scss';
+@import "../../Styles/global.scss";
 
 #page-login {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-
-  background: $backColor;
-  background-image: url('../../assets/images/doodles.png');
-
-  .painel-principal {
+  main {
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
 
-    width: 90%;
-    height: 85%;
+    width: 50%;
+    height: 100vh;
 
-    aside {
-      flex: 7;
-      background: $oneColor;
-    }
+    animation-name: floor;
+    animation-duration: 3s;
 
-    main {
-      flex: 4;
+    .logo {
       display: flex;
-      align-items: center;
       justify-content: center;
+      align-items: center;
+
+      background: $red;
+      margin-bottom: 32px;
+      width: 257px;
+      height: 95px;
+
+      h1 {
+        color: white;
+        font-size: 75px;
+        font-family: fantasy;
+      }
+    }
+
+    form {
+      display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
-      background: $twoColor;
-      padding: 0 32px;
+      animation-name: fade;
+      animation-duration: 6s;
 
-      form {
+      .title {
+        color: $red;
+        font-size: 22pt;
+        align-self: flex-start;
+        padding: 0 0 0 25px;
+      }
+
+      .sub-title {
+        color: $gray;
+        font-size: 16pt;
+        align-self: flex-start;
+        padding: 0 25px 10px 25px;
+      }
+
+      input {
+        padding: 0 25px;
+        border-radius: 38px;
+        width: 383px;
+        height: 73px;
+        font-size: 16pt;
+        color: $gray;
+        margin: 10px 0;
+        outline: none;
+      }
+
+      .options {
         display: flex;
-        flex-direction: column;
+        justify-content: space-around;
+
+        font-size: 14pt;
         width: 100%;
-        max-width: 320px;
-        align-items: stretch;
-        text-align: center;
-        gap: 10px;
-        user-select: none;
-        img {
-          width: 60%;
-          align-self: center;
-          margin: 10px;
-        }
-        div > .eye {
-          position: relative;
-          left: 40%;
-          top: -45%;
-          z-index: 2;
-        }
+        color: $gray;
+        margin: 10px 0;
 
-        input {
-          height: 50px;
-          border-radius: 8px;
-          padding: 0 16px;
-          background: $whiteColor;
-          border: 1px solid #ddd;
-          font-size: 12pt;
-        }
-
-        button {
-          margin-top: 16px;
-          height: 50px;
-          border-radius: 8px;
-          font-weight: 500;
-          background: $buttonColor;
-          color: $whiteColor;
-          padding: 0 32px;
-          font-size: 14pt;
-
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
+        .sublin {
+          text-decoration: underline;
+          text-decoration-color: $red;
           cursor: pointer;
-          border: 0;
 
-          transition: filter 0.2s;
-
-          &.outlined {
-            background: $whiteColor;
-            border: 1px solid $buttonColor;
-            color: $buttonColor;
-          }
-
-          &:not(:disabled):hover {
-            filter: brightness(0.9);
-          }
-
-          &:disabled {
-            opacity: 0.6;
-            cursor: not-allowed;
-          }
-        }
-
-        button,
-        input {
-          width: 100%;
-        }
-
-        .separator {
-          font-size: 14px;
-          color: $oneColor;
-
-          margin: 10px 0;
-          display: flex;
-          align-items: center;
-
-          &::before {
-            content: '';
-            flex: 1;
-            height: 1px;
-            background: $oneColor;
-            margin-right: 16px;
-          }
-
-          &::after {
-            content: '';
-            flex: 1;
-            height: 1px;
-            background: $oneColor;
-            margin-left: 16px;
+          &:hover {
+            opacity: 0.7;
           }
         }
       }
 
-      .button-register {
-        width: 100%;
+      button {
+        border: 0;
+        border-radius: 38px;
+        width: 383px;
+        height: 65px;
+        background: $red;
+        color: white;
+        font-size: 20pt;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+
+      p {
+        color: $gray;
+        margin: 10px 0 0 0;
         display: flex;
-        justify-content: center;
+        gap: 5px;
+        font-size: 14pt;
 
-        > button {
-          margin-top: 0;
-          height: 50px;
-          border-radius: 8px;
-          font-weight: 500;
-          background: $whiteColor;
-          color: $buttonColor;
-          padding: 0 32px;
-          font-size: 14pt;
-          border: 1px solid $buttonColor;
-          width: 100%;
-          max-width: 320px;
+        > div {
+          color: $red;
 
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-          cursor: pointer;
-
-          transition: filter 0.2s;
-
-          &.outlined {
-            background: $buttonColor;
-            border: 1px solid $whiteColor;
-            color: $whiteColor;
-          }
-
-          &:not(:disabled):hover {
-            filter: brightness(0.9);
-            background: $buttonColor;
-            border: 1px solid $whiteColor;
-            color: $whiteColor;
-          }
-
-          &:disabled {
-            opacity: 0.6;
-            cursor: not-allowed;
+          &:hover {
+            opacity: 0.7;
           }
         }
       }
     }
+  }
+
+  aside {
+    height: 100vh;
+    float: right;
+    width: 50%;
+
+    animation-name: fade;
+    animation-duration: 1s;
+
+    img {
+      width: 100%;
+      height: 100%;
+      mask-image: linear-gradient(to right, transparent 0%, #000 100%);
+    }
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes floor {
+  0% {
+    height: 160vh;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  50% {
+    height: 160vh;
+    width: 50%;
+    margin-bottom: 0;
   }
 }

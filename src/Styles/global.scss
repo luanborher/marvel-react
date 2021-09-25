@@ -1,6 +1,12 @@
-body {
+$red: #ff0000;
+$gray: #84848d;
+
+* {
   margin: 0;
   padding: 0;
+}
+
+body {
   box-sizing: border-box;
   background: black;
 }
