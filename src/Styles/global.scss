@@ -12,3 +12,10 @@ body {
   box-sizing: border-box;
   background: black;
 }
+
+@font-face {
+  font-family: "MarvelRegular";
+  src: local("MarvelRegular-Dj83"),
+    url(../Fonts/MarvelRegular-Dj83.ttf) format("TrueType");
+  font-weight: bold;
+}

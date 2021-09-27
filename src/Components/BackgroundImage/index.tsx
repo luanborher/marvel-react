@@ -1,6 +1,6 @@
 import { ImgBackground } from "../../Components/BackgroundImage/styles";
 import imageBack from "../../Image/imageFundo.jpeg";
 
-const Button: React.FC = () => <ImgBackground src={imageBack} alt="Avangers" />;
+const Button = () => <ImgBackground src={imageBack} alt="Avengers" />;
 
 export default Button;
