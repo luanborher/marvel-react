@@ -3,10 +3,10 @@ import React from "react";
 export const AuthContext = React.createContext({});
 
 export const AuthProvider = (props: any) => {
-  const user = {
-    name: "Luan",
-    color: "Red",
+  type User = {
+    user: string;
+    password: string;
   };
 
-  return <AuthProvider value={{ user }}>{props.children}</AuthProvider>;
+  return <AuthProvider value={{}}>{props.children}</AuthProvider>;
 };

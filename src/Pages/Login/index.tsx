@@ -1,10 +1,29 @@
 import "./styles.scss";
 
-import imageBack from "../../Image/imageFundo.jpeg";
+import { FormEvent, useState } from "react";
 
-export function Login() {
-  const user = "";
-  const pass = "";
+import ImgBackground from "../../Components/BackgroundImage/index";
+import { useHistory } from "react-router";
+
+interface DataLogin {
+  user: string;
+  password: string;
+}
+
+export const Login = () => {
+  const history = useHistory();
+  const [dataLogin, setDataLogin] = useState<DataLogin>({
+    user: "",
+    password: "",
+  });
+
+  const handleLogin = (e: FormEvent) => {
+    e.preventDefault();
+    const { user, password } = dataLogin;
+    if (user && password) {
+      history.push("/home");
+    }
+  };
 
   return (
     <div id="page-login">
@@ -12,11 +31,23 @@ export function Login() {
         <div className="logo">
           <h1>MARVEL</h1>
         </div>
-        <form>
+        <form onSubmit={handleLogin}>
           <label className="title">Bem-vindo(a) de volta!</label>
           <label className="sub-title">Acesse sua conta:</label>
-          <input type="email" placeholder="Usuário" value={user} />
-          <input type="email" placeholder="Senha" value={pass} />
+          <input
+            type="text"
+            placeholder="Usuário"
+            onChange={(event) =>
+              setDataLogin({ ...dataLogin, user: event.target.value })
+            }
+          />
+          <input
+            type="password"
+            placeholder="Senha"
+            onChange={(event) =>
+              setDataLogin({ ...dataLogin, password: event.target.value })
+            }
+          />
           <div className="options">
             <div>Salvar login</div>
             <div className="sublin">Esqueci a senha</div>
@@ -28,8 +59,8 @@ export function Login() {
         </form>
       </main>
       <aside>
-        <img src={imageBack} alt="Avangers" />
+        <ImgBackground />
       </aside>
     </div>
   );
-}
+};
