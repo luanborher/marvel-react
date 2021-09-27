@@ -1,3 +1,11 @@
+import "./styles.scss";
+
+import Navbar from "../../Components/Navbar/index";
+
 export const Home = () => {
-  return <div></div>;
+  return (
+    <div id="pageteste">
+      <Navbar />
+    </div>
+  );
 };
