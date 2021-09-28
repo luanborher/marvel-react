@@ -33,16 +33,9 @@ export const Navigation = styled.div`
     height: 100%;
     align-items: flex-end;
     justify-content: flex-end;
-    gap: 7%;
     padding: 8%;
     margin-bottom: 50px;
 `
 
-export const Links = styled.a`
-    font-size: 28pt;
-    color: #707070;
-
-    &:checked {
-        opacity: 0.7;
-    }
+export const Links = styled.div`
 `

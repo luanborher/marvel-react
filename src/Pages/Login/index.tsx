@@ -59,7 +59,7 @@ export const Login = () => {
         </form>
       </main>
       <aside>
-        <ImgBackground />
+        <ImgBackground shadow="100%" />
       </aside>
     </div>
   );

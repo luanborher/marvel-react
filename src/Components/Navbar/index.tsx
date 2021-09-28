@@ -2,18 +2,20 @@ import { HeaderNavbar } from "./styles";
 import { Links } from "./styles";
 import { Logo } from "./styles";
 import { Navigation } from "./styles";
+import { ReactNode } from "react";
 import { TextLogo } from "./styles";
 
-const Navbar = () => (
+interface TextLink {
+  children: ReactNode;
+}
+
+const Navbar = ({ children }: TextLink) => (
   <HeaderNavbar>
     <Logo>
       <TextLogo>MARVEL</TextLogo>
     </Logo>
     <Navigation>
-      <Links>Personagens</Links>
-      <Links>Filmes</Links>
-      <Links>HQs</Links>
-      <Links>Sair</Links>
+      <Links>{children}</Links>
     </Navigation>
   </HeaderNavbar>
 );
