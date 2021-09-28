@@ -1,13 +1,17 @@
-import "../../Styles/global.scss"
-
+import px2vw from '../../Styles/global'
 import styled from "styled-components";
 
-export const ButtonLink = styled.button`
-    font-family: "Arial";
-    font-size: 28pt;
-    border: 0;
-    margin: 0 50px;
-    padding: 0;
+interface ButtonProps{
+    active: boolean
+}
+
+export const ButtonLink = styled.button<ButtonProps>`
     background: black;
-    color: #707070;
+    font-family: "Arial";
+    font-size: ${px2vw(22)};
+    border: 0;
+    padding: 0;
+    margin: 0 ${px2vw(26)};
+    cursor: pointer;
+    color : ${props => props.active ? '#FFFFFF' : '#707070' };
 `
