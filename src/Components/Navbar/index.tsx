@@ -22,7 +22,7 @@ const Navbar = ({ active }: Props) => (
         <ButtonLink active={active === "Filmes" ? true : false} route="Filmes">
           Filmes
         </ButtonLink>
-        <ButtonLink active={active === "hqs" ? true : false} route="hqs">
+        <ButtonLink active={active === "Hqs" ? true : false} route="hqs">
           HQs
         </ButtonLink>
         <ButtonLink active={active === "" ? true : false} route="">

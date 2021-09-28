@@ -15,8 +15,6 @@ export const HeaderNavbar = styled.header`
     box-shadow: 0px 0px ${px2vw(8)} #ff0000;
     display: flex;
     align-items: center;
-    animation-name: ${Fade};
-    animation-duration: 1s;
 `
 
 export const Logo = styled.div`
@@ -47,6 +45,6 @@ export const Navigation = styled.div`
 export const Links = styled.div`
     display: flex;
     align-items: center;
-    margin-bottom: ${px2vw(20)};
+    margin-top: ${px2vw(20)};
 `
 
