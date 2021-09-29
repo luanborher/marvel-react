@@ -1,16 +1,8 @@
-import { Aside } from "./styles";
-import { Card } from "../../Components/Card";
-import { ContentCard } from "./styles";
-import ImgBackground from "../../Components/BackgroundImage/index";
-import { MainDiv } from "./styles";
-import Navbar from "../../Components/Navbar/index";
-import { PositionCard } from "./styles";
-import teste from "../../Image/imageFundo.jpeg";
+import { Aside, ContentCard, MainDiv, PositionCard } from "./styles";
 
-interface IDataCard {
-  name: string;
-  id: string;
-}
+import { Card } from "../../Components/Card";
+import ImgBackground from "../../Components/BackgroundImage/index";
+import Navbar from "../../Components/Navbar/index";
 
 export const Home = () => {
   return (
@@ -20,13 +12,13 @@ export const Home = () => {
         <PositionCard>
           <ContentCard>
             <Card>
-              <img src={teste} alt="teste" />
+              <img src="" alt="teste" />
             </Card>
             <Card>
-              <img src={teste} alt="teste" />
+              <img src="" alt="teste" />
             </Card>
             <Card>
-              <img src={teste} alt="teste" />
+              <img src="" alt="teste" />
             </Card>
           </ContentCard>
         </PositionCard>
@@ -36,6 +28,7 @@ export const Home = () => {
   );
 };
 
-export const ListaPersonagem = [
-  { Nome: "Wanda", Aparicoes: "adqweqwe", avaliacao: "blablabla" },
-];
+// EXEMPLO
+// export const ListaPersonagem = [
+//   { Nome: "Wanda", Aparicoes: "adqweqwe", avaliacao: "blablabla" },
+// ];
