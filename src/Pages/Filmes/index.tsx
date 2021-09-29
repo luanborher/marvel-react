@@ -8,7 +8,7 @@ export const Filmes = () => {
     <MainDiv>
       <Navbar active="Filmes" />
       <Aside>
-        <ImgBackground shadow="200%" />
+        <ImgBackground shadow="200%" imgWidth="50%" />
       </Aside>
     </MainDiv>
   );
