@@ -1,8 +1,10 @@
-import "./styles.scss";
-
 import { FormEvent, useState } from "react";
 
+import { Aside } from "./styles";
+import { Form } from "./styles";
 import ImgBackground from "../../Components/BackgroundImage/index";
+import { Logo } from "./styles";
+import { Main } from "./styles";
 import { useHistory } from "react-router";
 
 interface DataLogin {
@@ -27,11 +29,11 @@ export const Login = () => {
 
   return (
     <div id="page-login">
-      <main>
-        <div className="logo">
+      <Main>
+        <Logo>
           <h1>MARVEL</h1>
-        </div>
-        <form onSubmit={handleLogin}>
+        </Logo>
+        <Form onSubmit={handleLogin}>
           <label className="title">Bem-vindo(a) de volta!</label>
           <label className="sub-title">Acesse sua conta:</label>
           <input
@@ -56,11 +58,11 @@ export const Login = () => {
           <p>
             Ainda não tem o login?<div>Cadastre-se</div>
           </p>
-        </form>
-      </main>
-      <aside>
+        </Form>
+      </Main>
+      <Aside>
         <ImgBackground shadow="100%" />
-      </aside>
+      </Aside>
     </div>
   );
 };

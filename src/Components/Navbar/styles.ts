@@ -1,18 +1,13 @@
 import "../../Styles/global.scss"
 
-import styled, { keyframes } from "styled-components"
-
+import {primaryColor} from "../../Styles/global"
 import px2vw from "../../Styles/global"
-
-const Fade = keyframes`
-    from{ opacity: 0 }
-    to{ opacity: 1 }
-`
+import styled from "styled-components"
 
 export const HeaderNavbar = styled.header`
     width: 100vw;
     height: 14%;
-    box-shadow: 0px 0px ${px2vw(8)} #ff0000;
+    box-shadow: 0px 0px ${px2vw(8)} ${primaryColor};
     display: flex;
     align-items: center;
 `
@@ -20,7 +15,7 @@ export const HeaderNavbar = styled.header`
 export const Logo = styled.div`
     width: ${px2vw(158)};
     height: ${px2vw(50)};
-    background-color: #ff0000;
+    background-color: ${primaryColor};
     margin-left: ${px2vw(50)};
     display: flex;
     justify-content: space-evenly;
