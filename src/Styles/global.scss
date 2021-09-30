@@ -11,11 +11,19 @@ $gray: #84848d;
 body {
   box-sizing: border-box;
   background: black;
+  font-family: "AxiformaRegular";
 }
 
 @font-face {
   font-family: "MarvelRegular";
   src: local("MarvelRegular-Dj83"),
     url(../Fonts/MarvelRegular-Dj83.ttf) format("TrueType");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "AxiformaRegular";
+  src: local("AxiformaRegular"),
+    url(../Fonts/AxiformaRegular.otf) format("TrueType");
   font-weight: bold;
 }

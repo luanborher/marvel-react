@@ -22,6 +22,21 @@ export const ContentCard = styled.div`
     flex-direction: row;
     justify-content: center;
     position: absolute;
-    gap: ${px2vw(92)};
-    top: ${px2vw(240)};
+    
+    top: 35%;
+
+    .teste {
+        display: flex;
+        flex-direction: row;
+        gap: ${px2vw(92)};
+    }
+`
+
+export const ModalDetails = styled.div`
+    z-index: 12;
+    position: absolute;
+    color: white;
+    background: #ff0000;
+    width: 16.666666666666664vw;
+    height: 25vw;
 `
