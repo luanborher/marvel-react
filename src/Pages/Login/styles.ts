@@ -76,16 +76,16 @@ export const Logo = styled.div`
     justify-content: center;
 
     background: ${primaryColor};
-    margin-bottom: ${px2vw(24)};
-    width: ${px2vw(180)};
-    height: ${px2vw(72)};
+    margin-bottom: ${px2vw(38)};
+    width: ${px2vw(198)};
+    height: ${px2vw(80)};
 
     animation-name: ${walk};
     animation-duration: 2s;
 
     h1 {
         color: white;
-        font-size: ${px2vw(82)};
+        font-size: ${px2vw(88)};
         font-family: "MarvelRegular";
     }
 `
@@ -102,20 +102,20 @@ export const Form = styled.form`
         color: ${primaryColor};
         font-size: ${px2vw(22)};
         align-self: flex-start;
-        padding: 0 0 0 ${px2vw(18)};
+        padding: 0 0 0 ${px2vw(6)};
       }
 
       .sub-title {
         color: ${secondColor};
         font-size: ${px2vw(16)};;
         align-self: flex-start;
-        padding: 0 ${px2vw(18)} ${px2vw(6)} ${px2vw(18)};
+        padding: 0 0 ${px2vw(6)} ${px2vw(6)};
       }
 
       input {
         padding: 0 ${px2vw(18)};
+        width: ${px2vw(288)};
         border-radius: ${px2vw(46)};
-        width: ${px2vw(308)};
         height: ${px2vw(56)};
         font-size: ${px2vw(16)};
         color: ${secondColor};
@@ -128,10 +128,10 @@ export const Form = styled.form`
         display: flex;
         justify-content: space-around;
 
-        font-size: ${px2vw(14)};;
+        font-size: ${px2vw(14)};
         width: 100%;
         color: ${secondColor};
-        margin: ${px2vw(6)} 0;
+        margin: ${px2vw(12)} 0;
 
         .sublin {
           text-decoration: underline;
@@ -147,7 +147,7 @@ export const Form = styled.form`
       button {
         border: 0;
         border-radius: ${px2vw(46)};
-        width: ${px2vw(290)};
+        width: ${px2vw(320)};
         height: ${px2vw(46)};
         background: ${primaryColor};
         color: white;
@@ -161,7 +161,7 @@ export const Form = styled.form`
 
       p {
         color: ${secondColor};
-        margin: ${px2vw(4)} 0 0 0;
+        margin: ${px2vw(18)} 0 0 0;
         display: flex;
         gap: ${px2vw(4)};
         font-size: ${px2vw(14)};;

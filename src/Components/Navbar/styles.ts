@@ -1,5 +1,3 @@
-import "../../Styles/global.scss"
-
 import {primaryColor} from "../../Styles/global"
 import px2vw from "../../Styles/global"
 import styled from "styled-components"

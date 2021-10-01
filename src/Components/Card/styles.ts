@@ -50,13 +50,4 @@ export const Content = styled.div`
             }
         }
     }
-
-
-`
-export const Text = styled.text`
-
-`
-
-export const Title = styled.text`
-
 `

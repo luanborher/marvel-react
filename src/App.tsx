@@ -1,3 +1,5 @@
+import "./Styles/global.css";
+
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import { Filmes } from "./Pages/Filmes/index";

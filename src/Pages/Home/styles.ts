@@ -1,10 +1,6 @@
 import px2vw from "../../Styles/global"
 import styled from "styled-components";
 
-interface contentDetails {
-    position: number;
-}
-
 export const MainDiv = styled.main`
     height: 100vh;
 `
@@ -34,14 +30,4 @@ export const ContentCard = styled.div`
         flex-direction: row;
         gap: ${px2vw(92)};
     }
-`
-
-export const ModalDetails = styled.div<contentDetails>`
-    z-index: 12;
-    left: ${props => props.position}vw;
-    position: absolute;
-    color: white;
-    background: #ff0000;
-    width: 16.666666666666664vw;
-    height: 25vw;
 `
