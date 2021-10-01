@@ -13,13 +13,28 @@ import charactersList from "../../Container/CharactersList";
 import { useState } from "react";
 
 export const Home = () => {
-  // const [details, setDetails] = useState();
+  const [positionDetails, setPositionDetails] = useState(0);
   const [isModalVisible, setIsModalVisible] = useState(false);
 
   const handleOpenDetails = (id: number) => {
-    console.log(id);
+    switch (id) {
+      case 1:
+        setPositionDetails(15);
+        break;
+      case 2:
+        setPositionDetails(38);
+        break;
+      case 3:
+        setPositionDetails(61);
+        break;
+    }
+
+    handleRecuperarDados(id);
+
     setIsModalVisible(true);
   };
+
+  const handleRecuperarDados = (id: number) => {};
 
   const handleCloseDetails = () => {
     setIsModalVisible(false);
@@ -46,12 +61,12 @@ export const Home = () => {
                   </div>
                 </Card>
               ))}
-              {isModalVisible ? (
-                <ModalDetails>
-                  <span onClick={() => handleCloseDetails()}>FECHAR</span>
-                </ModalDetails>
-              ) : null}
             </div>
+            {isModalVisible ? (
+              <ModalDetails position={positionDetails}>
+                <span onClick={() => handleCloseDetails()}>FECHAR</span>
+              </ModalDetails>
+            ) : null}
           </ContentCard>
         </PositionCard>
         <ImgBackground shadow="200%" imgWidth="50%" />
