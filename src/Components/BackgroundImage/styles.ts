@@ -1,3 +1,4 @@
+import px2vw from "../../Styles/global"
 import styled from "styled-components"
 
 interface ShadowBox {
@@ -8,6 +9,6 @@ interface ShadowBox {
 export const ImgBackground = styled.img<ShadowBox>`
     float: right;
     width: ${(props) => props.imgWidth};
-    height: 100%;
+    height: ${px2vw(566)};
     mask-image: linear-gradient(to right, transparent 0%, #000 ${(props) => props.shadow});
 `

@@ -1,4 +1,4 @@
-import { InfoModal, ListApparition, Modal } from "./styles";
+import { InfoModal, ListApparition, Modal, Text } from "./styles";
 
 import { Card } from "../Card";
 import { RatingView } from "react-simple-star-rating";
@@ -23,16 +23,32 @@ export const ModalDetails = ({ data, position, closeModal }: Character) => {
         <img src={data.image} alt={data.title} />
       </Card>
       <InfoModal>
-        <p>{data.title}</p>
-        <div>
-          Aparições:
+        <Text size={26} top={38}>
+          {data.title}
+        </Text>
+        <div style={{ padding: "16px 0" }}>
+          <Text size={18} top={0}>
+            Aparições:
+          </Text>
           {data.apparitions.map((i) => (
             <ListApparition>{i}</ListApparition>
           ))}
+          <Text size={22} top={50} style={{ marginBottom: "8px" }}>
+            Avaliações dos Fãs
+          </Text>
+          <RatingView ratingValue={data.note} fillColor={"#FF9C00"} size={26} />
         </div>
-        Avaliações dos Fãs
-        <RatingView ratingValue={data.note} size={36} />
-        <span onClick={closeModal}>FECHAR</span>
+        <span
+          onClick={closeModal}
+          style={{
+            position: "absolute",
+            bottom: 16,
+            right: 26,
+            cursor: "pointer",
+          }}
+        >
+          X
+        </span>
       </InfoModal>
     </Modal>
   );

@@ -1,4 +1,13 @@
-import { Aside, ContentCard, MainDiv, PositionCard } from "./styles";
+import {
+  ContainerCard,
+  ContainerInfoCard,
+  Heading,
+  Image,
+  Main,
+  Paragraph,
+  Section,
+  Span,
+} from "./styles";
 
 import { Card } from "../../Components/Card";
 import ImgBackground from "../../Components/BackgroundImage/index";
@@ -44,43 +53,40 @@ export const Home = () => {
       console.log("ERRO, NOT EXIST");
       return;
     }
+
     setCharacterInspect(character);
     setIsModalVisible(true);
   };
 
   return (
-    <MainDiv>
+    <Main>
       <Navbar active="Home" />
-      <Aside>
-        <PositionCard>
-          <ContentCard>
-            <div className="teste">
-              {characters.map((item, i) => (
-                <Card>
-                  <img src={item.image} alt={item.title} />
-                  <div className="containerInfo">
-                    <div>
-                      <h1>{item.title}</h1>
-                      <p>{item.text}</p>
-                    </div>
-                    <span onClick={() => handleOpenDetails(item.id)}>
-                      ver detalhes
-                    </span>
-                  </div>
-                </Card>
-              ))}
-            </div>
-            {isModalVisible && (
-              <ModalDetails
-                closeModal={() => setIsModalVisible(false)}
-                data={characterInspect}
-                position={positionDetails}
-              />
-            )}
-          </ContentCard>
-        </PositionCard>
-        <ImgBackground shadow="200%" imgWidth="50%" />
-      </Aside>
-    </MainDiv>
+      <Section>
+        <ContainerCard>
+          {characters.map((item, i) => (
+            <Card>
+              <Image src={item.image} alt={item.title} />
+              <ContainerInfoCard>
+                <div>
+                  <Heading>{item.title}</Heading>
+                  <Paragraph>{item.text}</Paragraph>
+                </div>
+                <Span onClick={() => handleOpenDetails(item.id)}>
+                  ver detalhes
+                </Span>
+              </ContainerInfoCard>
+            </Card>
+          ))}
+          {isModalVisible && (
+            <ModalDetails
+              closeModal={() => setIsModalVisible(false)}
+              data={characterInspect}
+              position={positionDetails}
+            />
+          )}
+        </ContainerCard>
+      </Section>
+      <ImgBackground shadow="200%" imgWidth="50%" />
+    </Main>
   );
 };
