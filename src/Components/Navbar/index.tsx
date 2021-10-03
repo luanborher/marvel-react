@@ -1,9 +1,6 @@
-import ButtonLink from "../ButtonLink";
-import { HeaderNavbar } from "./styles";
-import { Links } from "./styles";
-import { Logo } from "./styles";
-import { Navigation } from "./styles";
-import { TextLogo } from "./styles";
+import { HeaderNavbar, Links, Logo, Navigation, TextLogo } from "./styles";
+
+import ButtonLink from "../Button";
 
 interface Props {
   active: string;

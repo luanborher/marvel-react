@@ -1,5 +1,5 @@
 import { Aside } from "./styles";
-import ImgBackground from "../../Components/BackgroundImage/index";
+import ImgBackground from "../../Components/Background/index";
 import { MainDiv } from "./styles";
 import Navbar from "../../Components/Navbar/index";
 
@@ -8,7 +8,7 @@ export const Hqs = () => {
     <MainDiv>
       <Navbar active="Hqs" />
       <Aside>
-        <ImgBackground shadow="200%" imgWidth="50%" />
+        <ImgBackground shadow="150%" imgWidth="50%" imgHeight="86vh" />
       </Aside>
     </MainDiv>
   );

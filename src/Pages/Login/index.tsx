@@ -2,7 +2,7 @@ import { FormEvent, useState } from "react";
 
 import { Aside } from "./styles";
 import { Form } from "./styles";
-import ImgBackground from "../../Components/BackgroundImage/index";
+import ImgBackground from "../../Components/Background/index";
 import { Logo } from "./styles";
 import { Main } from "./styles";
 import { useHistory } from "react-router";
@@ -61,7 +61,7 @@ export const Login = () => {
         </Form>
       </Main>
       <Aside>
-        <ImgBackground shadow="100%" imgWidth="100%" />
+        <ImgBackground shadow="100%" imgWidth="100%" imgHeight="100vh" />
       </Aside>
     </div>
   );

@@ -2,8 +2,19 @@ import px2vw, { primaryColor } from "../../Styles/global"
 
 import styled from "styled-components";
 
+interface Current {
+    currentSlide: string
+}
+
+export const Page = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`
+
 export const Main = styled.main`
     height: 100vh;
+    user-select: none;
 `
 
 export const Section = styled.section`
@@ -19,8 +30,17 @@ export const ContainerCard = styled.div`
     display: flex;
     flex-direction: row;
     position: absolute;
+    align-items: center;
     gap: ${px2vw(92)};
     top: 22%;
+    color: ${primaryColor};
+    z-index: 1;
+    justify-content: center;
+    transform: scale(1.08);
+`
+
+export const Slider = styled.div<Current>`
+    display: ${props => props.currentSlide === "slide" ? "none" : ""};
 `
 
 export const Image = styled.img`
@@ -28,6 +48,7 @@ export const Image = styled.img`
     height: 100%;
     border-radius: ${px2vw(24)};
     position: relative;
+    margin-right: auto;
 `
 
 export const ContainerInfoCard = styled.div`
