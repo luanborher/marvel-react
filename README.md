@@ -4,7 +4,7 @@
 
 ## O projeto
 
-Está aplicação é um teste focado em front-end para uma empresa de desenvolvimento web, todas as imagens, fontes e layout foram desenvolvidas e proporcionadas pela empresa. Foi utilizado uma biblioteca json criado no projeto, com as informações tiradas das telas de layout e algumas includas.
+Está aplicação é um teste focado em front-end para uma empresa de desenvolvimento web, todas as imagens, fontes e layout foram desenvolvidas e proporcionadas pela empresa. Foi utilizado uma biblioteca json criado no projeto, com as informações tiradas das telas de layout.
 
 ## Utilizado no projeto
 
@@ -30,6 +30,7 @@ $ yarn start
 
 ## Bibliografia
 
+```bash
 [reactjs]: https://reactjs.org
 [yarn]: https://yarnpkg.com/
 [vscode]: https://code.visualstudio.com/
@@ -37,3 +38,4 @@ $ yarn start
 [react-icons]: https://react-icons.github.io/react-icons/
 [React-Router]: https://reactrouter.com/web/guides/quick-start
 [typescript]: https://www.typescriptlang.org/
+```
