@@ -41,3 +41,13 @@ export const Links = styled.div`
     margin-top: ${px2vw(20)};
 `
 
+export const Image = styled.img`
+    width: ${px2vw(46)};
+    height: ${px2vw(46)};
+`
+
+export const Close = styled.div`
+    display: flex;
+    align-items: center;
+    margin-left: ${px2vw(46)};
+`

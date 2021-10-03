@@ -8,10 +8,10 @@ interface ButtonProps{
 export const ButtonLink = styled.button<ButtonProps>`
     background: black;
     font-family: "Arial";
-    font-size: ${px2vw(22)};
+    font-size: ${px2vw(26)};
     border: 0;
     padding: 0;
-    margin: 0 ${px2vw(26)};
+    margin: 0 ${px2vw(28)};
     cursor: pointer;
     color : ${props => props.active ? '#FFFFFF' : '#707070' };
 `

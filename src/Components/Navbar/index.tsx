@@ -1,6 +1,15 @@
-import { HeaderNavbar, Links, Logo, Navigation, TextLogo } from "./styles";
+import {
+  Close,
+  HeaderNavbar,
+  Image,
+  Links,
+  Logo,
+  Navigation,
+  TextLogo,
+} from "./styles";
 
 import ButtonLink from "../Button";
+import Perfil from "../../Image/perfil.png";
 
 interface Props {
   active: string;
@@ -22,9 +31,12 @@ const Navbar = ({ active }: Props) => (
         <ButtonLink active={active === "Hqs" ? true : false} route="hqs">
           HQs
         </ButtonLink>
-        <ButtonLink active={active === "" ? true : false} route="">
-          Sair
-        </ButtonLink>
+        <Close>
+          <Image src={Perfil} alt="perfil" />
+          <ButtonLink active={active === "" ? true : false} route="">
+            Sair
+          </ButtonLink>
+        </Close>
       </Links>
     </Navigation>
   </HeaderNavbar>
