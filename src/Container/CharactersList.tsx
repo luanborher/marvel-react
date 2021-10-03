@@ -16,6 +16,7 @@ const charactersList = [
       "Homem Aranha - Longe de casa",
       "Homem Aranha - De volta pra casa",
     ],
+    disp: [],
     note: 5,
   },
   {
@@ -30,6 +31,7 @@ const charactersList = [
       "Vingadores - Ultimato",
       "WandaVision",
     ],
+    disp: [],
     note: 4,
   },
   {
@@ -43,6 +45,7 @@ const charactersList = [
       "Vingadores - Guerra Infinita",
       "Vingadores - Ultimato",
     ],
+    disp: [],
     note: 5,
   },
   {
@@ -57,6 +60,7 @@ const charactersList = [
       "Vingadores - Guerra Infinita",
       "Vingadores - Ultimato",
     ],
+    disp: [],
     note: 4,
   },
 ];

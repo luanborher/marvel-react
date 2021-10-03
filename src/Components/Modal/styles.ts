@@ -42,6 +42,7 @@ export const InfoModal = styled.div`
 `
 
 export const ListApparition = styled.p`
+    text-align: justify;
     font-size: ${px2vw(14)};
     line-height: ${px2vw(18)};
 `
@@ -49,6 +50,7 @@ export const ListApparition = styled.p`
 export const Text = styled.p<IText>`
     font-size: ${props => px2vw(props.size)};
     margin-top: ${props => px2vw(props.top)};
+    width: ${px2vw(235)};
 `
 
 export const ContainerApparition = styled.div`

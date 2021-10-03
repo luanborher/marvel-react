@@ -21,20 +21,21 @@ import px2vw from "../../Styles/global";
 import { useSelector } from "react-redux";
 import { useState } from "react";
 
-interface Hqs {
+interface Hq {
   id: number;
   title: string;
   text: string;
   image: string;
   apparitions: string[];
+  disp: string[];
   note: number;
 }
 
-export const Filmes = () => {
+export const Hqs = () => {
   const [current, setCurrent] = useState(0);
   const [isModalVisible, setIsModalVisible] = useState(false);
   const { hqs } = useSelector((state: RootState) => state.hqs);
-  const [hqsInspect, setHqsInspect] = useState<Hqs>({} as Hqs);
+  const [hqsInspect, setHqsInspect] = useState<Hq>({} as Hq);
 
   const length = hqs.length;
 
@@ -64,13 +65,15 @@ export const Filmes = () => {
         <Navbar active="Hqs" />
         <Section>
           <ContainerCard>
-            <FaArrowLeft
-              onClick={handlePrevSlide}
-              style={{ fontSize: px2vw(36), cursor: "pointer" }}
-            />
+            {length > 3 && (
+              <FaArrowLeft
+                onClick={handlePrevSlide}
+                style={{ fontSize: px2vw(36), cursor: "pointer" }}
+              />
+            )}
             {hqs.map((item, i) => {
               return (
-                <Slider currentSlide={i === current ? "slide" : "active"}>
+                <Slider currentSlide={i === current ? "active" : "active"}>
                   <Card>
                     <Image src={item.image} alt={item.title} />
                     <ContainerInfoCard>
@@ -86,10 +89,12 @@ export const Filmes = () => {
                 </Slider>
               );
             })}
-            <FaArrowRight
-              onClick={handleNextSlide}
-              style={{ fontSize: px2vw(36), cursor: "pointer" }}
-            />
+            {length > 3 && (
+              <FaArrowRight
+                onClick={handleNextSlide}
+                style={{ fontSize: px2vw(36), cursor: "pointer" }}
+              />
+            )}
           </ContainerCard>
         </Section>
         <ImgBackground shadow="150%" imgWidth="50%" imgHeight="86vh" />
@@ -98,6 +103,7 @@ export const Filmes = () => {
         <ModalDetails
           closeModal={() => setIsModalVisible(false)}
           data={hqsInspect}
+          type={["Disponível para compra:", "Crítica"]}
         />
       )}
     </Page>

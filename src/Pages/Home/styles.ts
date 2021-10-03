@@ -51,6 +51,14 @@ export const Image = styled.img`
     margin-right: auto;
 `
 
+export const ImageMenor = styled.img`
+    width: ${px2vw(48)};
+    height: ${px2vw(48)};
+    border-radius: ${px2vw(24)};
+    position: relative;
+    margin-right: auto;
+`
+
 export const ContainerInfoCard = styled.div`
     display: flex;
     flex-direction: column;

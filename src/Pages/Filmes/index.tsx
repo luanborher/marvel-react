@@ -27,6 +27,7 @@ interface Films {
   text: string;
   image: string;
   apparitions: string[];
+  disp: string[];
   note: number;
 }
 
@@ -64,10 +65,12 @@ export const Filmes = () => {
         <Navbar active="Filmes" />
         <Section>
           <ContainerCard>
-            <FaArrowLeft
-              onClick={handlePrevSlide}
-              style={{ fontSize: px2vw(36), cursor: "pointer" }}
-            />
+            {length > 3 && (
+              <FaArrowLeft
+                onClick={handlePrevSlide}
+                style={{ fontSize: px2vw(36), cursor: "pointer" }}
+              />
+            )}
             {films.map((item, i) => {
               return (
                 <Slider currentSlide={i === current ? "slide" : "active"}>
@@ -86,10 +89,12 @@ export const Filmes = () => {
                 </Slider>
               );
             })}
-            <FaArrowRight
-              onClick={handleNextSlide}
-              style={{ fontSize: px2vw(36), cursor: "pointer" }}
-            />
+            {length > 3 && (
+              <FaArrowRight
+                onClick={handleNextSlide}
+                style={{ fontSize: px2vw(36), cursor: "pointer" }}
+              />
+            )}
           </ContainerCard>
         </Section>
         <ImgBackground shadow="150%" imgWidth="50%" imgHeight="86vh" />
@@ -98,6 +103,7 @@ export const Filmes = () => {
         <ModalDetails
           closeModal={() => setIsModalVisible(false)}
           data={filmsInspect}
+          type={["Disponível em streaming:", "Crítica"]}
         />
       )}
     </Page>

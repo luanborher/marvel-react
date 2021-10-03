@@ -1,10 +1,21 @@
+import {
+  Aside,
+  Button,
+  Div,
+  Form,
+  Input,
+  Logo,
+  Main,
+  Option,
+  P,
+  SubTitle,
+  Subli,
+  Text,
+  Title,
+} from "./styles";
 import { FormEvent, useState } from "react";
 
-import { Aside } from "./styles";
-import { Form } from "./styles";
 import ImgBackground from "../../Components/Background/index";
-import { Logo } from "./styles";
-import { Main } from "./styles";
 import { useHistory } from "react-router";
 
 interface DataLogin {
@@ -28,41 +39,41 @@ export const Login = () => {
   };
 
   return (
-    <div id="page-login">
+    <>
       <Main>
         <Logo>
-          <h1>MARVEL</h1>
+          <Text>MARVEL</Text>
         </Logo>
         <Form onSubmit={handleLogin}>
-          <label className="title">Bem-vindo(a) de volta!</label>
-          <label className="sub-title">Acesse sua conta:</label>
-          <input
+          <Title>Bem-vindo(a) de volta!</Title>
+          <SubTitle>Acesse sua conta:</SubTitle>
+          <Input
             type="text"
             placeholder="Usuário"
             onChange={(event) =>
               setDataLogin({ ...dataLogin, user: event.target.value })
             }
           />
-          <input
+          <Input
             type="password"
             placeholder="Senha"
             onChange={(event) =>
               setDataLogin({ ...dataLogin, password: event.target.value })
             }
           />
-          <div className="options">
-            <div>Salvar login</div>
-            <div className="sublin">Esqueci a senha</div>
-          </div>
-          <button type="submit">Entrar</button>
-          <p>
+          <Option>
+            <Div>Salvar login</Div>
+            <Subli>Esqueci a senha</Subli>
+          </Option>
+          <Button>Entrar</Button>
+          <P>
             Ainda não tem o login?<div>Cadastre-se</div>
-          </p>
+          </P>
         </Form>
       </Main>
       <Aside>
         <ImgBackground shadow="100%" imgWidth="100%" imgHeight="100vh" />
       </Aside>
-    </div>
+    </>
   );
 };
