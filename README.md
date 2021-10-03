@@ -6,6 +6,8 @@
 
 Está aplicação é um teste focado em front-end para uma empresa de desenvolvimento web, todas as imagens, fontes e layout foram desenvolvidas e proporcionadas pela empresa. Foi utilizado uma biblioteca json criado no projeto, com as informações tiradas das telas de layout.
 
+![image](https://user-images.githubusercontent.com/56548147/135773576-3148b7a2-e704-40a3-81cc-cbf0ca66bb28.png)
+
 ## Utilizado no projeto
 
 - [React][reactjs]
