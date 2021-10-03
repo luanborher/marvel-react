@@ -19,7 +19,7 @@ Está aplicação é um teste focado em front-end para uma empresa de desenvolvi
 # Clonano o repositório
 $ git clone https://github.com/luanborher/mdw-projetoMarvel.git
 
-$ cd marvel-app
+$ cd mdw-projetoMarvel
 
 # Instale as dependências
 $ yarn install
