@@ -1,15 +1,105 @@
-import { Aside } from "./styles";
-import ImgBackground from "../../Components/Background/index";
-import { MainDiv } from "./styles";
-import Navbar from "../../Components/Navbar/index";
+import {
+  ContainerCard,
+  ContainerInfoCard,
+  Heading,
+  Image,
+  Main,
+  Page,
+  Paragraph,
+  Section,
+  Slider,
+  Span,
+} from "./styles";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
-export const Hqs = () => {
+import { Card } from "../../Components/Card";
+import ImgBackground from "../../Components/Background";
+import { ModalDetails } from "../../Components/Modal";
+import Navbar from "../../Components/Navbar";
+import { RootState } from "../../Redux/store";
+import px2vw from "../../Styles/global";
+import { useSelector } from "react-redux";
+import { useState } from "react";
+
+interface Hqs {
+  id: number;
+  title: string;
+  text: string;
+  image: string;
+  apparitions: string[];
+  note: number;
+}
+
+export const Filmes = () => {
+  const [current, setCurrent] = useState(0);
+  const [isModalVisible, setIsModalVisible] = useState(false);
+  const { hqs } = useSelector((state: RootState) => state.hqs);
+  const [hqsInspect, setHqsInspect] = useState<Hqs>({} as Hqs);
+
+  const length = hqs.length;
+
+  const handleOpenDetails = (id: number) => {
+    const hq = hqs.find(({ id: idList }) => idList === id);
+
+    if (!hq) {
+      console.log("ERROR, CHARACTERS NOT EXIST");
+      return;
+    }
+
+    setHqsInspect(hq);
+    setIsModalVisible(true);
+  };
+
+  const handleNextSlide = () => {
+    setCurrent(current === length - 1 ? 0 : current + 3);
+  };
+
+  const handlePrevSlide = () => {
+    setCurrent(current === 0 ? 0 : current - 3);
+  };
+
   return (
-    <MainDiv>
-      <Navbar active="Hqs" />
-      <Aside>
+    <Page>
+      <Main style={isModalVisible ? { opacity: 0.1 } : {}}>
+        <Navbar active="Hqs" />
+        <Section>
+          <ContainerCard>
+            <FaArrowLeft
+              onClick={handlePrevSlide}
+              style={{ fontSize: px2vw(36), cursor: "pointer" }}
+            />
+            {hqs.map((item, i) => {
+              return (
+                <Slider currentSlide={i === current ? "slide" : "active"}>
+                  <Card>
+                    <Image src={item.image} alt={item.title} />
+                    <ContainerInfoCard>
+                      <div>
+                        <Heading>{item.title}</Heading>
+                        <Paragraph>{item.text}</Paragraph>
+                      </div>
+                      <Span onClick={() => handleOpenDetails(item.id)}>
+                        ver detalhes
+                      </Span>
+                    </ContainerInfoCard>
+                  </Card>
+                </Slider>
+              );
+            })}
+            <FaArrowRight
+              onClick={handleNextSlide}
+              style={{ fontSize: px2vw(36), cursor: "pointer" }}
+            />
+          </ContainerCard>
+        </Section>
         <ImgBackground shadow="150%" imgWidth="50%" imgHeight="86vh" />
-      </Aside>
-    </MainDiv>
+      </Main>
+      {isModalVisible && (
+        <ModalDetails
+          closeModal={() => setIsModalVisible(false)}
+          data={hqsInspect}
+        />
+      )}
+    </Page>
   );
 };
