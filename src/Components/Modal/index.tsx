@@ -62,7 +62,7 @@ export const ModalDetails = ({ data, type, closeModal }: Character) => {
               <RatingView
                 ratingValue={data.note}
                 fillColor={"#FF9C00"}
-                size={px2vw(32)}
+                size={32}
               />
             </Div>
           </ContainerApparition>
