@@ -1,6 +1,7 @@
 import {
   ContainerCard,
   ContainerInfoCard,
+  DropDownContent,
   Heading,
   Image,
   Main,
@@ -9,6 +10,7 @@ import {
   Section,
   Slider,
   Span,
+  SubA,
 } from "./styles";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
@@ -21,6 +23,7 @@ import px2vw from "../../Styles/global";
 import { useSelector } from "react-redux";
 import { useState } from "react";
 
+/** @param Character typing a json films */
 interface Films {
   id: number;
   title: string;
@@ -64,6 +67,11 @@ export const Filmes = () => {
       <Main style={isModalVisible ? { opacity: 0.1 } : {}}>
         <Navbar active="Filmes" />
         <Section>
+          <DropDownContent>
+            <SubA value={""}>Filtrar por</SubA>
+            <SubA value={"Lançamento"}>Lançamento</SubA>
+            <SubA value={"Cronologia"}>Cronologia</SubA>
+          </DropDownContent>
           <ContainerCard>
             {length > 3 && (
               <FaArrowLeft
@@ -71,6 +79,7 @@ export const Filmes = () => {
                 style={{ fontSize: px2vw(36), cursor: "pointer" }}
               />
             )}
+            {/* mapping card */}
             {films.map((item, i) => {
               return (
                 <Slider currentSlide={i === current ? "slide" : "active"}>

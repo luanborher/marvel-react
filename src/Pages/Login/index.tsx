@@ -34,7 +34,10 @@ export const Login = () => {
     e.preventDefault();
     const { user, password } = dataLogin;
     if (user && password) {
+      localStorage.setItem("user", user);
       history.push("/home");
+    } else {
+      alert("Digita qualquer Login e Senha para entrar");
     }
   };
 

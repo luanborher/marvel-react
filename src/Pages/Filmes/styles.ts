@@ -85,3 +85,34 @@ export const Span = styled.span`
         opacity: 0.8;
     }
 `
+
+export const DropDownContent = styled.select`
+    border: 1px solid ${primaryColor};
+    position: absolute;
+    color: ${primaryColor};
+    font-size: ${px2vw(18)};
+    background: black;
+    padding: ${px2vw(14)} ${px2vw(18)};
+    border-radius: ${px2vw(8)};
+    top: ${px2vw(48)};
+    left: ${px2vw(236)};
+
+    margin-left: auto;
+
+    &:focus-visible {
+        border: 1px solid ${primaryColor};
+        outline: 2em;
+    }
+`;
+
+export const SubA = styled.option`
+    font-size: ${px2vw(18)};
+    height: ${px2vw(10)};
+    color: ${primaryColor};
+    background: black;
+    text-decoration: none;
+    
+    &:hover {
+        background: black;
+    }
+`;

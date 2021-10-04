@@ -21,6 +21,7 @@ import px2vw from "../../Styles/global";
 import { useSelector } from "react-redux";
 import { useState } from "react";
 
+/** @param Character typing a json hqs */
 interface Hq {
   id: number;
   title: string;
@@ -71,6 +72,7 @@ export const Hqs = () => {
                 style={{ fontSize: px2vw(36), cursor: "pointer" }}
               />
             )}
+            {/* mapping card */}
             {hqs.map((item, i) => {
               return (
                 <Slider currentSlide={i === current ? "active" : "active"}>
