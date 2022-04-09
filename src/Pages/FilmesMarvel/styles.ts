@@ -10,6 +10,8 @@ export const Page = styled.div`
   justify-content: center;
   align-items: center;
 
+  background-color: #111111;
+
   overflow-x: hidden;
 `;
 

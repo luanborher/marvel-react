@@ -95,6 +95,9 @@ export const Option = styled.div`
   width: 100%;
   color: var(--secondColor);
   margin: ${px2vw(12)} 0;
+
+  div {
+  }
 `;
 
 export const Subli = styled.div`
@@ -131,15 +134,6 @@ export const Input = styled.input`
   margin: ${px2vw(8)} 0;
   outline: none;
   border: ${px2vw(1)} solid black;
-`;
-
-export const Aside = styled.aside`
-  height: 100vh;
-  float: right;
-  width: 50%;
-
-  animation-name: fade;
-  animation-duration: 2s;
 `;
 
 export const Div = styled.div``;

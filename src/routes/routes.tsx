@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import PrivateRoute from './routesPrivate';
 
-import { Filmes } from '../Pages/Filmes/index';
+import { Filmes } from '../Pages/FilmesMarvel/index';
 import { Home } from '../Pages/Home/index';
 import { Login } from '../Pages/Login/index';
 

@@ -7,6 +7,7 @@ export const HeaderNavbar = styled.header`
   box-shadow: 0px 0px ${px2vw(8)} var(--primaryColor);
   display: flex;
   align-items: center;
+  background-color: black;
 `;
 
 export const Logo = styled.img`
