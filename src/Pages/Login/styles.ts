@@ -1,7 +1,7 @@
-import px2vw, {primaryColor, secondColor} from "../../Styles/global"
+import {px2vw} from "../../Styles/global"
 import styled, { keyframes } from "styled-components";
 
-const teste = keyframes` 
+const teste = keyframes`
   0% {
     height: 65%;
   }
@@ -59,8 +59,9 @@ export const Main = styled.main`
 export const Logo = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
 
-  background: ${primaryColor};
+  background: var(--primaryColor);
   margin-bottom: ${px2vw(38)};
   width: ${px2vw(198)};
   height: ${px2vw(80)};
@@ -71,8 +72,9 @@ export const Logo = styled.div`
 
 export const Text = styled.text`
   color: white;
-  font-size: ${px2vw(88)};
-  font-family: "MarvelRegular";
+  font-size: ${px2vw(60)};
+  font-family: "Marvel";
+  font-weight: bold;
 `
 
 export const Form = styled.form`
@@ -91,13 +93,13 @@ export const Option = styled.div`
 
   font-size: ${px2vw(14)};
   width: 100%;
-  color: ${secondColor};
+  color: var(--secondColor);
   margin: ${px2vw(12)} 0;
 `
 
 export const Subli = styled.div`
   text-decoration: underline;
-  text-decoration-color: ${primaryColor};
+  text-decoration-color: var(--primaryColor);
   cursor: pointer;
 
   &:hover {
@@ -106,14 +108,14 @@ export const Subli = styled.div`
 `
 
 export const Title = styled.label`
-  color: ${primaryColor};
+  color: var(--primaryColor);
   font-size: ${px2vw(22)};
   align-self: flex-start;
   padding: 0 0 0 ${px2vw(6)};
 `
 
 export const SubTitle = styled.label`
-  color: ${secondColor};
+  color: var(--secondColor);
   font-size: ${px2vw(16)};;
   align-self: flex-start;
   padding: 0 0 ${px2vw(6)} ${px2vw(6)};
@@ -125,7 +127,7 @@ export const Input = styled.input`
   border-radius: ${px2vw(46)};
   height: ${px2vw(56)};
   font-size: ${px2vw(16)};
-  color: ${secondColor};
+  color: var(--secondColor);
   margin: ${px2vw(8)} 0;
   outline: none;
   border: ${px2vw(1)} solid black;
@@ -147,7 +149,7 @@ export const Button = styled.button`
   border-radius: ${px2vw(46)};
   width: ${px2vw(320)};
   height: ${px2vw(46)};
-  background: ${primaryColor};
+  background: var(--primaryColor);
   color: white;
   font-size: ${px2vw(24)};
   cursor: pointer;
@@ -158,14 +160,14 @@ export const Button = styled.button`
 `
 
 export const P = styled.p`
-  color: ${secondColor};
+  color: var(--secondColor);
   margin: ${px2vw(18)} 0 0 0;
   display: flex;
   gap: ${px2vw(4)};
   font-size: ${px2vw(14)};;
 
     > div {
-      color: ${primaryColor};
+      color: var(--primaryColor);
 
     &:hover {
       opacity: 0.7;

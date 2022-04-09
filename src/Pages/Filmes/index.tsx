@@ -1,7 +1,6 @@
 import {
   ContainerCard,
   ContainerInfoCard,
-  DropDownContent,
   Heading,
   Image,
   Main,
@@ -10,7 +9,6 @@ import {
   Section,
   Slider,
   Span,
-  SubA,
 } from "./styles";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
@@ -18,48 +16,29 @@ import { Card } from "../../Components/Card";
 import ImgBackground from "../../Components/Background";
 import { ModalDetails } from "../../Components/Modal";
 import Navbar from "../../Components/Navbar";
-import { RootState } from "../../Redux/store";
-import px2vw from "../../Styles/global";
-import { useSelector } from "react-redux";
+import {px2vw} from "../../Styles/global";
 import { useState } from "react";
-
-/** @param Character typing a json films */
-interface Films {
-  id: number;
-  title: string;
-  text: string;
-  image: string;
-  apparitions: string[];
-  disp: string[];
-  note: number;
-}
+import { useAuth } from "../../Hooks/useAuth";
+import { ResponseFilmsMarvel } from '../../Hooks/useAuth'
 
 export const Filmes = () => {
   const [current, setCurrent] = useState(0);
   const [isModalVisible, setIsModalVisible] = useState(false);
-  const { films } = useSelector((state: RootState) => state.films);
-  const [filmsInspect, setFilmsInspect] = useState<Films>({} as Films);
+  const [filmsInspect, setFilmsInspect] = useState<ResponseFilmsMarvel>();
+  const { films } = useAuth();
+  const [length] = useState(films.length);
 
-  const length = films.length;
-
-  const handleOpenDetails = (id: number) => {
-    const film = films.find(({ id: idList }) => idList === id);
-
-    if (!film) {
-      console.log("ERROR, CHARACTERS NOT EXIST");
-      return;
-    }
-
-    setFilmsInspect(film);
+  const handleOpenDetails = (data: ResponseFilmsMarvel) => {
+    setFilmsInspect(data);
     setIsModalVisible(true);
   };
 
   const handleNextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 3);
+    setCurrent(current === length - 3 ? current : current + 1);
   };
 
   const handlePrevSlide = () => {
-    setCurrent(current === 0 ? 0 : current - 3);
+    setCurrent(current === 0 ? 0 : current - 1);
   };
 
   return (
@@ -67,22 +46,21 @@ export const Filmes = () => {
       <Main style={isModalVisible ? { opacity: 0.1 } : {}}>
         <Navbar active="Filmes" />
         <Section>
-          <DropDownContent>
-            <SubA value={""}>Filtrar por</SubA>
-            <SubA value={"Lançamento"}>Lançamento</SubA>
-            <SubA value={"Cronologia"}>Cronologia</SubA>
-          </DropDownContent>
           <ContainerCard>
-            {length > 3 && (
+            {current !== 0 ? (
               <FaArrowLeft
                 onClick={handlePrevSlide}
                 style={{ fontSize: px2vw(36), cursor: "pointer" }}
               />
+            ) : (
+              <FaArrowLeft
+                style={{ fontSize: px2vw(36), cursor: "auto", opacity: 0 }}
+              />
             )}
-            {/* mapping card */}
-            {films.map((item, i) => {
-              return (
-                <Slider currentSlide={i === current ? "slide" : "active"}>
+            {films.map((item, index) => {
+              if (index >= current && index < current + 3) {
+                return (
+                  <Slider currentSlide={"active"}>
                   <Card>
                     <Image src={item.image} alt={item.title} />
                     <ContainerInfoCard>
@@ -90,19 +68,24 @@ export const Filmes = () => {
                         <Heading>{item.title}</Heading>
                         <Paragraph>{item.text}</Paragraph>
                       </div>
-                      <Span onClick={() => handleOpenDetails(item.id)}>
+                      <Span onClick={() => handleOpenDetails(item)}>
                         ver detalhes
                       </Span>
                     </ContainerInfoCard>
                   </Card>
                 </Slider>
-              );
+                );
+              }
             })}
-            {length > 3 && (
+            {current !== length - 3 && length > 3 ? (
               <FaArrowRight
                 onClick={handleNextSlide}
                 style={{ fontSize: px2vw(36), cursor: "pointer" }}
               />
+            ) : (
+              <FaArrowRight
+              style={{ fontSize: px2vw(36), cursor: "auto", opacity: 0 }}
+            />
             )}
           </ContainerCard>
         </Section>
@@ -110,7 +93,7 @@ export const Filmes = () => {
       </Main>
       {isModalVisible && (
         <ModalDetails
-          closeModal={() => setIsModalVisible(false)}
+          setShowModal={setIsModalVisible}
           data={filmsInspect}
           type={["Disponível em streaming:", "Crítica"]}
         />

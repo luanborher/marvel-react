@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import {
   Aside,
   Button,
@@ -13,12 +15,12 @@ import {
   Text,
   Title,
 } from "./styles";
-import { FormEvent, useState } from "react";
 
-import ImgBackground from "../../Components/Background/index";
 import { useHistory } from "react-router";
+import { toast } from "react-toastify";
+import ImgBackground from "../../Components/Background/index";
 
-interface DataLogin {
+export interface DataLogin {
   user: string;
   password: string;
 }
@@ -30,14 +32,19 @@ export const Login = () => {
     password: "",
   });
 
-  const handleLogin = (e: FormEvent) => {
-    e.preventDefault();
-    const { user, password } = dataLogin;
-    if (user && password) {
-      localStorage.setItem("user", user);
+  const notify = (message: string) =>
+  toast.error(message, {
+    position: 'top-right',
+    autoClose: 5000,
+  });
+
+
+  const handleLogin = () => {
+    if (dataLogin.user === "admin" && dataLogin.password === "admin") {
+      localStorage.setItem("@Marvel: user", JSON.stringify(dataLogin));
       history.push("/home");
     } else {
-      alert("Digita qualquer Login e Senha para entrar");
+      notify("Usuário ou senha incorretos");
     }
   };
 
@@ -56,6 +63,7 @@ export const Login = () => {
             onChange={(event) =>
               setDataLogin({ ...dataLogin, user: event.target.value })
             }
+            value={dataLogin.user}
           />
           <Input
             type="password"
@@ -63,6 +71,7 @@ export const Login = () => {
             onChange={(event) =>
               setDataLogin({ ...dataLogin, password: event.target.value })
             }
+            value={dataLogin.password}
           />
           <Option>
             <Div>Salvar login</Div>

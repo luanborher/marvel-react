@@ -1,14 +1,16 @@
-import App from "./App";
-import { Provider } from "react-redux";
 import React from "react";
 import ReactDOM from "react-dom";
-import { store } from "./Redux/store";
+import Routes from "./routes/routes";
+import GlobalStyle from './Styles/global';
+import AuthProvider from './Hooks/useAuth';
+import 'react-toastify/dist/ReactToastify.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store}>
-      <App />
-    </Provider>
+    <AuthProvider>
+    <GlobalStyle />
+    <Routes />
+    </AuthProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

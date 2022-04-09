@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components";
 
-import px2vw from "../../Styles/global"
+import {px2vw} from "../../Styles/global"
 
 interface IText {
     size: number;
@@ -11,9 +11,9 @@ const open = keyframes`
     0% {
         opacity: 0;
     }
-    50% { 
-        opacity: 1; 
-    }  
+    50% {
+        opacity: 1;
+    }
 `
 
 export const Modal = styled.div`
@@ -37,7 +37,7 @@ export const InfoModal = styled.div`
     flex-direction: row;
     align-items: justify;
     justify-content: space-between;
-    
+
     margin-left: ${px2vw(32)};
 `
 

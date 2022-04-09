@@ -1,11 +1,11 @@
-import px2vw, {primaryColor} from "../../Styles/global"
+import {px2vw} from "../../Styles/global"
 
 import styled from "styled-components"
 
 export const HeaderNavbar = styled.header`
     width: 100vw;
     height: 14%;
-    box-shadow: 0px 0px ${px2vw(8)} ${primaryColor};
+    box-shadow: 0px 0px ${px2vw(8)} var(--primaryColor);
     display: flex;
     align-items: center;
 `
@@ -13,18 +13,19 @@ export const HeaderNavbar = styled.header`
 export const Logo = styled.div`
     width: ${px2vw(158)};
     height: ${px2vw(50)};
-    background-color: ${primaryColor};
+    background-color: var(--primaryColor);
     margin-left: ${px2vw(50)};
     display: flex;
-    justify-content: space-evenly;
-    align-content: flex-end;
+    justify-content: center;
+    align-content: center;
 `
 
 export const TextLogo = styled.text`
-    font-family: "MarvelRegular";
-    font-size: ${px2vw(50)};
+    font-family: "Marvel";
+    font-size: ${px2vw(40)};
     color: white;
-    margin-top: ${px2vw(3)};;
+    margin-left: ${px2vw(-3)};;
+    font-weight: bold;
 `
 
 export const Navigation = styled.div`

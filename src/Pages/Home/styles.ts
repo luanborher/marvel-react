@@ -1,4 +1,4 @@
-import px2vw, { primaryColor } from "../../Styles/global"
+import { px2vw } from "../../Styles/global"
 
 import styled from "styled-components";
 
@@ -33,7 +33,7 @@ export const ContainerCard = styled.div`
     align-items: center;
     gap: ${px2vw(92)};
     top: 22%;
-    color: ${primaryColor};
+    color: var(--primaryColor);
     z-index: 1;
     justify-content: center;
     transform: scale(1.08);
@@ -69,7 +69,7 @@ export const ContainerInfoCard = styled.div`
     width: ${px2vw(240)};
     height: ${px2vw(192)};
     border-radius: ${px2vw(24)};
-    background: linear-gradient(${primaryColor} 5%, transparent 120%);
+    background: linear-gradient(var(--primaryColor) 5%, transparent 120%);
     color: white;
 `
 

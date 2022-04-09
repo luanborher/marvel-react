@@ -10,26 +10,21 @@ import { Image, ImageMenor } from "../../Pages/Home/styles";
 
 import { Card } from "../Card";
 import { FaRegTimesCircle } from "react-icons/fa";
-import { RatingView } from "react-simple-star-rating";
-import px2vw from "../../Styles/global";
+import {px2vw} from "../../Styles/global";
+
+import { ResponseFilmsMarvel } from '../../Hooks/useAuth'
 
 interface Character {
-  data: {
-    id: number;
-    title: string;
-    text: string;
-    image: string;
-    apparitions: string[];
-    disp: string[];
-    note: number;
-  };
-  closeModal: () => void;
+  data: ResponseFilmsMarvel| undefined;
+  setShowModal: React.Dispatch<React.SetStateAction<boolean>>;
   type: string[];
 }
 
-export const ModalDetails = ({ data, type, closeModal }: Character) => {
-  return (
-    <Modal>
+export const ModalDetails = ({ data, type, setShowModal }: Character) => {
+  const renderModal = () => {
+    if (data) {
+      return (
+        <>
       <Card>
         <Image src={data.image} alt={data.title} />
       </Card>
@@ -59,16 +54,12 @@ export const ModalDetails = ({ data, type, closeModal }: Character) => {
               {type[1]}
             </Text>
             <Div>
-              <RatingView
-                ratingValue={data.note}
-                fillColor={"#FF9C00"}
-                size={32}
-              />
+              {data.note}
             </Div>
           </ContainerApparition>
         </Div>
         <FaRegTimesCircle
-          onClick={closeModal}
+          onClick={() => setShowModal(false)}
           style={{
             position: "absolute",
             bottom: px2vw(16),
@@ -79,6 +70,13 @@ export const ModalDetails = ({ data, type, closeModal }: Character) => {
           size={px2vw(32)}
         />
       </InfoModal>
-    </Modal>
-  );
+    </>
+      );
+        }
+
+      return null
+  }
+
+  return  <Modal>{renderModal()}</Modal>
+
 };
