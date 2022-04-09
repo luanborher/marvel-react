@@ -47,12 +47,9 @@ export const Text = styled.p<IText>`
 `;
 
 export const ContainerApparition = styled.div`
-  padding: ${px2vw(16)} 0;
+  padding: ${px2vw(10)} 0;
 `;
-
-export const Div = styled.div``;
 
 export const Galery = styled.div`
   width: ${px2vw(280)};
-  height: auto;
 `;

@@ -4,14 +4,7 @@ import { Card } from '../Card';
 import { px2vw } from '../../Styles/global';
 import { ResponseFilmsMarvel } from '../../Hooks/useAuth';
 
-import {
-  ContainerApparition,
-  Div,
-  InfoModal,
-  Modal,
-  Text,
-  Galery,
-} from './styles';
+import { ContainerApparition, InfoModal, Modal, Text, Galery } from './styles';
 
 interface Character {
   id: number | undefined;
@@ -71,10 +64,10 @@ export const ModalDetails = ({
                   ))}
                 </Galery>
 
-                <Text size={22} top={20}>
+                <Text size={22} top={10}>
                   {type[1]}
                 </Text>
-                <Div>
+                <div>
                   {data.note.map(() => (
                     <FaStar
                       size={px2vw(20)}
@@ -82,7 +75,7 @@ export const ModalDetails = ({
                       style={{ marginRight: px2vw(3) }}
                     />
                   ))}
-                </Div>
+                </div>
               </ContainerApparition>
             </div>
             <FaRegTimesCircle
