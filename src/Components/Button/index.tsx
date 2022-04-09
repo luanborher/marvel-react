@@ -1,6 +1,6 @@
-import { ButtonLink } from "./styles";
-import { ReactNode } from "react";
-import { useHistory } from "react-router-dom";
+import { ReactNode } from 'react';
+import { useHistory } from 'react-router-dom';
+import { ButtonLink } from './styles';
 
 interface Content {
   children: ReactNode;

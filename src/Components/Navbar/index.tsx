@@ -1,15 +1,5 @@
-import {
-  Close,
-  HeaderNavbar,
-  Image,
-  Links,
-  Logo,
-  Navigation,
-  TextLogo,
-} from "./styles";
-
-import ButtonLink from "../Button";
-import Perfil from "../../Image/perfil.png";
+import { Close, HeaderNavbar, Image, Links, Logo, Navigation } from './styles';
+import ButtonLink from '../Button';
 
 interface Props {
   active: string;
@@ -17,21 +7,26 @@ interface Props {
 
 const Navbar = ({ active }: Props) => (
   <HeaderNavbar>
-    <Logo>
-      <TextLogo>MARVEL</TextLogo>
-    </Logo>
+    <Logo
+      src="https://logodownload.org/wp-content/uploads/2017/05/marvel-logo.png"
+      alt="logotipo da marvel"
+    />
     <Navigation>
       <Links>
-        <ButtonLink active={active === "Home" ? true : false} route="Home">
-          Personagens
+        <ButtonLink active={active === 'Filmes'} route="Filmes">
+          FILMES E SÉRIES
         </ButtonLink>
-        <ButtonLink active={active === "Filmes" ? true : false} route="Filmes">
-          Filmes
+        <ButtonLink active={active === 'Personagens'} route="Personagens">
+          PERSONAGENS
         </ButtonLink>
         <Close>
-          <Image src={Perfil} alt="perfil" />
-          <ButtonLink active={active === "" ? true : false} route="">
-            Sair
+          <Image
+            src="https://i.pinimg.com/originals/a1/4d/cf/a14dcf617c862170e1808db56ea12dc3.png"
+            alt="perfil"
+            style={{ backgroundColor: '#fff', borderRadius: '50%' }}
+          />
+          <ButtonLink active={active === ''} route="">
+            SAIR
           </ButtonLink>
         </Close>
       </Links>

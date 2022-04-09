@@ -1,11 +1,96 @@
 [
   {
-    "id": 1,
+    "id": 114,
+    "title": "Homem de Ferro",
+    "text": "Quando é capturado em território inimigo, o genial magnata Tony Stark constrói uma armadura de alta tecnologia para escapar. Agora, ele tem a missão de salvar o mundo como um herói que não nasceu.",
+    "image": "https://img.elo7.com.br/product/zoom/1DFB189/poster-cartaz-iron-man-homem-de-ferro-poster-tematico.jpg",
+    "galery": [],
+    "link": "https://www.disneyplus.com/pt-br/movies/homem-de-ferro-da-marvel-studios/6aM2a8mZATiu",
+    "category": "Filme",
+    "fase": 1,
+    "note": [1, 2, 3, 4]
+  },
+  {
+    "id": 114,
+    "title": "Homem de Ferro II",
+    "text": "Agora que sua identidade de super-herói foi revelada, Tony Stark mais uma vez tem que entrar na armadura e enfrentar seu mais perigoso inimigo, mas não sem ter alguns novos aliados.",
+    "image": "http://4.bp.blogspot.com/_NGxZghpc1m0/S7Nv0KfC7qI/AAAAAAAABJo/fVw-mNKatgw/s1600/homem_de_ferro2_poster_7.jpg",
+    "galery": [],
+    "link": "https://www.disneyplus.com/pt-br/movies/homem-de-ferro-2-da-marvel-studios/lXjCr9QmGGQJ",
+    "category": "Filme",
+    "fase": 1,
+    "note": [1, 2, 3]
+  },
+  {
+    "id": 114,
+    "title": "Thor",
+    "text": "O Poderoso Thor está prestes a ascender ao trono do reino fantástico de Asgard, até que sua arrogância imprudente reacende uma guerra antiga. Logo Thor é banido para a Terra para viver entre os seres humanos.",
+    "image": "https://img.elo7.com.br/product/zoom/2678608/big-poster-filme-thor-2011-lo06-tamanho-90x60-cm-vingadores.jpg",
+    "galery": [],
+    "link": "https://www.disneyplus.com/pt-br/movies/thor-da-marvel-studios/1p4vdKzTuhzr",
+    "category": "Filme",
+    "fase": 1,
+    "note": [1, 2, 3, 4]
+  },
+  {
+    "id": 114,
+    "title": "WandaVision",
+    "text": "Após os eventos de Vingadores: Ultimato (2019), Wanda Maximoff/Feiticeira Escarlate (Elizabeth Olsen) e Visão (Paul Bettany) se esforçam para levar uma vida normal no subúrbio e esconder seus poderes. Mas a dupla de super-heróis logo começa a suspeitar que nem tudo está tão certo assim.",
+    "image": "https://img.elo7.com.br/product/original/3816CC2/big-poster-serie-wandavision-lo001-cartaz.jpg",
+    "galery": [],
+    "link": "https://www.disneyplus.com/pt-br/series/wandavision/4SrN28ZjDLwH",
+    "category": "Série",
+    "fase": 4,
+    "note": [1, 2, 3]
+  },
+  {
+    "id": 114,
+    "title": "Falcão e o Soldado Invernal",
+    "text": "Sam Wilson, o Falcão, descobre uma nova ameaça enquanto lida com problemas em casa. Bucky Barnes tenta desesperadamente se reintegrar à sociedade, mas é atormentado por pesadelos que revelam atos terríveis do Soldado Invernal.",
+    "image": "https://br.web.img3.acsta.net/pictures/20/12/11/01/46/4588265.jpg",
+    "galery": [],
+    "link": "https://www.disneyplus.com/pt-br/series/falcao-e-o-soldado-invernal/4gglDBMx8icA",
+    "category": "Série",
+    "fase": 4,
+    "note": [1, 2, 3, 4]
+  },
+  {
+    "id": 114,
+    "title": "Loki",
+    "text": "O spin-off segue os passos de Loki (Tom Hiddleston), mais conhecido como Deus da Trapaça, que conseguiu roubar o tesserato dos Vingadores durante a missão de recuperar as Joias do Infinito. Com o poder da gema do espaço, o Asgardiano começa a pular no tempo com a intenção de chegar a Midgard.",
+    "image": "https://br.web.img2.acsta.net/pictures/21/05/12/17/18/2995518.jpg",
+    "galery": [],
+    "link": "https://www.disneyplus.com/pt-br/series/loki/6pARMvILBGzF",
+    "category": "Série",
+    "fase": 4,
+    "note": [1, 2, 3, 4]
+  },
+  {
+    "id": 114,
+    "title": "Viúva Negra",
+    "text": "Ao nascer, a Viúva Negra, então conhecida como Natasha Romanova, é entregue à KGB, que a prepara para se tornar sua agente suprema. Porém, o seu próprio governo tenta matá-la quando a União Soviética se desfaz.",
+    "image": "https://i0.wp.com/www.popsfera.com.br/wp-content/uploads/2021/06/E6350E2B-45B1-4DBA-999A-BD34D797001D.jpeg?resize=691%2C1024&ssl=1",
+    "galery": [],
+    "link": "https://www.disneyplus.com/pt-br/movies/viuva-negra/3VfTap90rwZC",
+    "category": "Série",
+    "fase": 4,
+    "note": [1, 2, 3, 4]
+  },
+  {
+    "id": 114,
     "title": "Cavaleiro da Lua",
     "text": "A trama acompanha Steven Grant, um homem gentil e simpático, que trabalha em uma loja de presentes. Ele é uma pessoa comum, mas que sofre com constantes “apagões” e tem memórias que parecem ser de uma vida que não é a sua.",
     "image": "https://cafecomnerd.com.br/wp-content/uploads/2022/03/Cavaleiro-da-Lua-serie-poster-mr-knight.jpeg",
-    "apparitions": [],
-    "disp": ["https://portalpopline.com.br/wp-content/uploads/2022/02/cavaleiro-da-lua-2022.jpg", "https://ovicio.com.br/wp-content/uploads/2021/09/20210915-ovicio-moon-knight-marvel.jpg"],
-    "note": 4
+    "galery": [
+      "https://rollingstone.uol.com.br/media/_versions/oscar_isaac_em_cavaleiro_da_lua_foto_divulgacao_marvel_widelg.jpg",
+      "https://blogger.googleusercontent.com/img/a/AVvXsEh0-vNVhAoN2gfY1Iw9nreMTyU-Lq9VgjjehhXUNp2wgzUwOnovGUR0eyI5kQlkxcgFCL85-2YHXWk9g8ImUKtTUKIDKZ3E5MpViedFBIDW6d5QVPwx9Zl0pjUOhkRYVU2vh4UTMpcDNK1JwzaRb4L9XeVFCAkH2AqAW0rF0cyIUFsQ-wJALA=s16000",
+      "https://olhardigital.com.br/wp-content/uploads/2022/01/Captura-de-Tela-2022-01-18-a%CC%80s-07.22.09-1024x527.png",
+      "https://ovicio.com.br/wp-content/uploads/2022/03/20220327-picsart_22-03-27_17-23-41-436-1.jpg",
+      "https://uploads.jovemnerd.com.br/wp-content/uploads/2022/01/cavaleiro-da-lua-ethan-hawke-vilao.jpg"
+    ],
+    "link": "https://www.disneyplus.com/pt-br/series/cavaleiro-da-lua/4S3oOF1knocS",
+    "category": "Série",
+    "fase": 4,
+    "note": [1, 2, 3, 4]
   }
 ]

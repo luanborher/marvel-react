@@ -9,11 +9,12 @@ export interface ResponseFilmsMarvel {
   title: string;
   text: string;
   image: string;
-  apparitions: any[];
-  disp: string[];
-  note: number;
+  galery: string[];
+  link: string;
+  category: string;
+  fase: number;
+  note: number[];
 }
-
 
 interface IUserProvider {
   user: DataLogin;

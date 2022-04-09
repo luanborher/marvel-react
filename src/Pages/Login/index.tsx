@@ -1,5 +1,6 @@
-import { useState } from "react";
-
+import { useState } from 'react';
+import { useHistory } from 'react-router-dom';
+import ImgBackground from '../../Components/Background/index';
 import {
   Aside,
   Button,
@@ -14,11 +15,7 @@ import {
   Subli,
   Text,
   Title,
-} from "./styles";
-
-import { useHistory } from "react-router";
-import { toast } from "react-toastify";
-import ImgBackground from "../../Components/Background/index";
+} from './styles';
 
 export interface DataLogin {
   user: string;
@@ -28,24 +25,13 @@ export interface DataLogin {
 export const Login = () => {
   const history = useHistory();
   const [dataLogin, setDataLogin] = useState<DataLogin>({
-    user: "",
-    password: "",
+    user: '',
+    password: '',
   });
-
-  const notify = (message: string) =>
-  toast.error(message, {
-    position: 'top-right',
-    autoClose: 5000,
-  });
-
 
   const handleLogin = () => {
-    if (dataLogin.user === "admin" && dataLogin.password === "admin") {
-      localStorage.setItem("@Marvel: user", JSON.stringify(dataLogin));
-      history.push("/home");
-    } else {
-      notify("Usuário ou senha incorretos");
-    }
+    localStorage.setItem('@Marvel: user', JSON.stringify(dataLogin));
+    history.push('/Filmes');
   };
 
   return (
@@ -60,7 +46,7 @@ export const Login = () => {
           <Input
             type="text"
             placeholder="Usuário"
-            onChange={(event) =>
+            onChange={event =>
               setDataLogin({ ...dataLogin, user: event.target.value })
             }
             value={dataLogin.user}
@@ -68,7 +54,7 @@ export const Login = () => {
           <Input
             type="password"
             placeholder="Senha"
-            onChange={(event) =>
+            onChange={event =>
               setDataLogin({ ...dataLogin, password: event.target.value })
             }
             value={dataLogin.password}

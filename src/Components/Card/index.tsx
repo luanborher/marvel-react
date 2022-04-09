@@ -1,5 +1,5 @@
-import { Content } from "./styles";
-import { ReactNode } from "react";
+import { ReactNode } from 'react';
+import { Content } from './styles';
 
 interface ContentCard {
   children: ReactNode;
