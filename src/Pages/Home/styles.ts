@@ -48,6 +48,7 @@ export const Image = styled.img`
   border-radius: ${px2vw(24)};
   position: relative;
   margin-right: auto;
+  object-fit: cover;
 `;
 
 export const ImageMenor = styled.img`
