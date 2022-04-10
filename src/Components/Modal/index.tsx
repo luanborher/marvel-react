@@ -30,7 +30,7 @@ export const ModalDetails = ({
           </Card>
           <InfoModal>
             <div>
-              <Text size={24} top={35}>
+              <Text size={24} top={25}>
                 {data.title}
                 <FaPlayCircle
                   size={24}

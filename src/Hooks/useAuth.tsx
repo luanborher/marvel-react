@@ -14,6 +14,7 @@ export interface ResponseFilmsMarvel {
   category: string;
   fase: number;
   note: number[];
+  teory: string;
 }
 
 interface IUserProvider {
