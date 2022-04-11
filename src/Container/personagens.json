@@ -13,7 +13,8 @@
       "Capitão America: Guerra Cívil",
       "Vingadores: Guerra Infinita",
       "Vingadores: Ultimato",
-      "WandaVision"
+      "WandaVision",
+      "What if...?"
     ],
     "teory": "Seu poder do Caos pode ser um dos futuros da marvel, ajudará Doutor Estranho no multiverso da loucura. Pode trazer os X-men a vida e mudar toda a realidade existente."
   },
@@ -31,7 +32,8 @@
       "Capitão America: Guerra Cívil",
       "Vingadores: Guerra Infinita",
       "Vingadores: Ultimato",
-      "WandaVision"
+      "WandaVision",
+      "What if...?"
     ],
     "teory": "O Visão totalmente branco, sem mente e memória está vivo e tentando entender quem é de verdade, aparecerá novamente em algum momento."
   },
@@ -52,7 +54,7 @@
   {
     "id": 54,
     "name": "Monica Rambeau",
-    "history": "Filha da amiga de Capitã Marvel, depois de ter voltado do beep e descobrir que sua mão morreu, se torna uma agente e participa do caso onde Wanda criou uma cidade do zero, seu corpo foi modificado e agora poderes, no final acaba ajudando Wanda a derrotar Agatha.",
+    "history": "Filha da Rambeau, amiga de Capitã Marvel. Depois de ter voltado do beep e descobrir que sua mão morreu, volta ao seu trabalho de capitã e participa do caso onde Wanda criou uma cidade do zero, seu corpo foi modificado e liberou poderes que estavam em seu corpo, ajuda Wanda a derrotar Agatha. Chamada por Nick Fury para ir ao espaço.",
     "img": "https://geeksaw.com.br/wp-content/uploads/2021/03/wandavision-what-are-monica-rambeau-superpowers-explained-1259727.jpeg",
     "faseOne": false,
     "faseTwo": false,
@@ -151,6 +153,45 @@
     "teory": "Pode ser um nome falso e ser o morador desaparecido mencionado por Woo e ter uma relação com os mutantes."
   },
   {
+    "id": 61,
+    "name": "Capitão America",
+    "history": "",
+    "img": "https://ovicio.com.br/wp-content/uploads/2021/04/20210423-7dcca350-f134-4dc6-ba66-c66f3bff1875.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Capitão America: Soldado Invernal",
+      "Vingadores: Era de Ultron",
+      "Capitão America: Guerra Civil",
+      "Vingadores: Guerra Infinita",
+      "Vingadores: Ultimato",
+      "Falcão e o Soldado Invernal"
+    ],
+    "teory": null
+  },
+  {
+    "id": 62,
+    "name": "Soldado Invernal",
+    "history": "",
+    "img": "https://www.pinkvilla.com/files/styles/amp_metadata_content_image/public/the_falcon_and_the_winter_soldier_director_kari_skogland_sebastian_stan_bucky_barnes_future.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Capitão America: O Primeiro Vingador",
+      "Capitão America: Soldado Invernal",
+      "Capitão America: Guerra Civil",
+      "Vingadores: Guerra Infinita",
+      "Vingadores: Ultimato",
+      "What If...?",
+      "Falcão e o Soldado Invernal"
+    ],
+    "teory": null
+  },
+  {
     "id": 1,
     "name": "Loki",
     "history": "Foi morto por Thanos em Guerra Infinita mas volta a vida depois que os vingadores voltar ao passado, mas acaba indo para outra linha do tempo onde é caçado pela AVT então se junta a uma versão mulher de Loki, ela manda ele para outra ramificação e depois mata Kang, o conquistador abrindo varias ramificações do tempo podendo haver guerra multiversal.",
@@ -165,7 +206,8 @@
       "Thor: Ragnarok",
       "Vingadores: Guerra Infinita",
       "Vingadores: Ultimato",
-      "Loki: Temporada 1"
+      "Loki: Temporada 1",
+      "What if...?"
     ],
     "teory": "Está no meio da grande guerra multiversal contra o Kang, O conquistador."
   },
