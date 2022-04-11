@@ -15,6 +15,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
     background: black;
     font-family: "Arial";
+    background-color: #111111;
   }
 
   @keyframes fade{
@@ -25,6 +26,7 @@ export default createGlobalStyle`
       opacity:1
     }
   }
-`
+`;
 
-export const px2vw = (size : number, width = 1440) => `${(size / width) * 100}vw`
+export const px2vw = (size: number, width = 1440) =>
+  `${(size / width) * 100}vw`;

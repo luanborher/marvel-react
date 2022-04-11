@@ -3,7 +3,7 @@ import { px2vw } from '../../Styles/global';
 
 export const HeaderNavbar = styled.header`
   width: 100vw;
-  height: 14%;
+  height: 12vh;
   box-shadow: 0px 0px ${px2vw(8)} var(--primaryColor);
   display: flex;
   align-items: center;

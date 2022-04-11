@@ -33,7 +33,7 @@ export const Filmes = () => {
 
   const handleNextSlideOne = () => {
     setCurrentOne(
-      currentOne === films.filter(item => item.fase === 1).length - 3
+      currentOne === films.filter(item => item.fase === 1).length - 4
         ? currentOne
         : currentOne + 1,
     );
@@ -45,7 +45,7 @@ export const Filmes = () => {
 
   const handleNextSlideFour = () => {
     setCurrentFour(
-      currentFour === films.filter(item => item.fase === 4).length - 3 - 3
+      currentFour === films.filter(item => item.fase === 4).length - 4
         ? currentFour
         : currentFour + 1,
     );
@@ -59,7 +59,7 @@ export const Filmes = () => {
     return films
       .filter(item => item.fase === 1)
       .map((film, index) => {
-        if (index >= currentOne && index < currentOne + 3) {
+        if (index >= currentOne && index < currentOne + 4) {
           return (
             <Slider currentSlide="active">
               <Card>
@@ -86,7 +86,7 @@ export const Filmes = () => {
     return films
       .filter(item => item.fase === 4)
       .map((film, index) => {
-        if (index >= currentFour && index < currentFour + 3) {
+        if (index >= currentFour && index < currentFour + 4) {
           return (
             <Slider currentSlide="active">
               <Card>
@@ -123,8 +123,8 @@ export const Filmes = () => {
   };
 
   const renderArrowRightOne = () => {
-    return currentOne !== films.filter(item => item.fase === 1).length - 3 &&
-      films.filter(item => item.fase === 1).length > 3 ? (
+    return currentOne !== films.filter(item => item.fase === 1).length - 4 &&
+      films.filter(item => item.fase === 1).length > 4 ? (
       <FaArrowRight
         onClick={handleNextSlideOne}
         style={{ fontSize: px2vw(36), cursor: 'pointer' }}
@@ -150,8 +150,8 @@ export const Filmes = () => {
   };
 
   const renderArrowRightFour = () => {
-    return currentFour !== films.filter(item => item.fase === 4).length - 3 &&
-      films.filter(item => item.fase === 4).length > 3 ? (
+    return currentFour !== films.filter(item => item.fase === 4).length - 4 &&
+      films.filter(item => item.fase === 4).length > 4 ? (
       <FaArrowRight
         onClick={handleNextSlideFour}
         style={{ fontSize: px2vw(36), cursor: 'pointer' }}

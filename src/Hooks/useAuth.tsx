@@ -3,6 +3,7 @@ import React, { createContext, useContext, useEffect, useState } from 'react';
 
 import { DataLogin } from '../Pages/Login';
 import FilmsList from '../Container/FilmsList.json';
+import PersonaList from '../Container/personagens.json';
 
 export interface ResponseFilmsMarvel {
   id: number;
@@ -14,15 +15,30 @@ export interface ResponseFilmsMarvel {
   category: string;
   fase: number;
   note: number[];
-  teory: string;
+  teory: string | null;
+}
+
+export interface ResponsePersonaMarvel {
+  id: number;
+  name: string;
+  history: string;
+  img: string;
+  faseOne: boolean;
+  faseTwo: boolean;
+  faseThree: boolean;
+  faseFour: boolean;
+  films: string[];
+  teory: string | null;
 }
 
 interface IUserProvider {
   user: DataLogin;
   films: ResponseFilmsMarvel[];
+  persona: ResponsePersonaMarvel[];
 
   setUser: React.Dispatch<React.SetStateAction<DataLogin>>;
   setFilms: React.Dispatch<React.SetStateAction<ResponseFilmsMarvel[]>>;
+  setPersona: React.Dispatch<React.SetStateAction<ResponsePersonaMarvel[]>>;
 }
 
 const AuthContext = createContext({} as IUserProvider);
@@ -30,6 +46,7 @@ const AuthContext = createContext({} as IUserProvider);
 const AuthProvider: React.FC = ({ children }) => {
   const [user, setUser] = useState<DataLogin>({} as DataLogin);
   const [films, setFilms] = useState<ResponseFilmsMarvel[]>(FilmsList);
+  const [persona, setPersona] = useState<ResponsePersonaMarvel[]>(PersonaList);
 
   useEffect(() => {
     const dataUser = localStorage.getItem('@Marvel: user');
@@ -42,7 +59,9 @@ const AuthProvider: React.FC = ({ children }) => {
   }, []);
 
   return (
-    <AuthContext.Provider value={{ user, setUser, films, setFilms }}>
+    <AuthContext.Provider
+      value={{ user, setUser, films, setFilms, persona, setPersona }}
+    >
       {children}
     </AuthContext.Provider>
   );

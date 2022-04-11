@@ -9,7 +9,7 @@
     "category": "Filme",
     "fase": 1,
     "note": [1, 2, 3, 4],
-    "teory": ""
+    "teory": null
   },
   {
     "id": 114,
@@ -21,7 +21,7 @@
     "category": "Filme",
     "fase": 1,
     "note": [1, 2, 3],
-    "teory": ""
+    "teory": null
   },
   {
     "id": 114,
@@ -33,19 +33,30 @@
     "category": "Filme",
     "fase": 1,
     "note": [1, 2, 3, 4],
-    "teory": ""
+    "teory": null
   },
   {
     "id": 114,
     "title": "WandaVision",
-    "text": "Após os eventos de Vingadores: Ultimato (2019), Wanda Maximoff/Feiticeira Escarlate (Elizabeth Olsen) e Visão (Paul Bettany) se esforçam para levar uma vida normal no subúrbio e esconder seus poderes. Mas a dupla de super-heróis logo começa a suspeitar que nem tudo está tão certo assim.",
+    "text": "Depois da morte de Visão Wanda cria uma cidade inteira e uma familia com seus poderes, controlando todo mundo, é controlada por Agatha uma bruxa que quer roubar esses poderes mas Wanda impede ela depois de destruir sua criação, ela vive isolada estudando o Caos para ter sua familia de volta.",
     "image": "https://img.elo7.com.br/product/original/3816CC2/big-poster-serie-wandavision-lo001-cartaz.jpg",
-    "galery": [],
+    "galery": [
+      "https://recreio.uol.com.br/media/_versions/legacy/2021/06/02/wandavision-1230176_widexl.jpg",
+      "https://ovicio.com.br/wp-content/uploads/2021/02/20210226-vision-marvel-555x555.jpeg",
+      "https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2021/10/Agatha-Harkness-WandaVision.jpg",
+      "https://geeksaw.com.br/wp-content/uploads/2021/03/wandavision-what-are-monica-rambeau-superpowers-explained-1259727.jpeg",
+      "https://thedirect.s3.amazonaws.com/media/photos/word3.jpg",
+      "https://terrigen-cdn-dev.marvel.com/content/prod/1x/jimmy.jpg",
+      "https://i.pinimg.com/originals/49/c7/d9/49c7d968406cca2084be5c7a13a839ce.jpg",
+      "https://64.media.tumblr.com/0790079876135580af67cc10aac73aaa/328608443cdaee45-17/s400x600/ecaa7abdfda1d343d70808f4da1e7c26533d356f.png",
+      "https://i.pinimg.com/originals/82/c0/e7/82c0e7697f761e93e99b445bd773ddc1.jpg",
+      "https://static.papergeek.fr/2021/03/Evan-Peters-Quicksilver-WandaVision.jpg"
+    ],
     "link": "https://www.disneyplus.com/pt-br/series/wandavision/4SrN28ZjDLwH",
     "category": "Série",
     "fase": 4,
     "note": [1, 2, 3],
-    "teory": ""
+    "teory": "Wanda pode reescrever todo o multiverso e trazer mutantes para esse universo e ajudará Doutor Estranho no multiverso da loucura."
   },
   {
     "id": 114,
@@ -57,7 +68,7 @@
     "category": "Série",
     "fase": 4,
     "note": [1, 2, 3, 4],
-    "teory": "Eli Bradley pode ser um herói dos Jovens Vingadores e virar o capitão america no futuro."
+    "teory": null
   },
   {
     "id": 114,
@@ -92,7 +103,7 @@
     "category": "Série",
     "fase": 4,
     "note": [1, 2, 3, 4],
-    "teory": ""
+    "teory": null
   },
   {
     "id": 114,
@@ -110,6 +121,6 @@
     "category": "Série",
     "fase": 4,
     "note": [1, 2, 3, 4],
-    "teory": ""
+    "teory": null
   }
 ]

@@ -1,0 +1,256 @@
+[
+  {
+    "id": 51,
+    "name": "Wanda Maximoff",
+    "history": "Wanda Maximoff cria um mundo e uma familia apartir do CAOS, controlando todos ao seu redor. Está sendo enganada por Agatha mas depois que descobri com ajuda de Monica e sua familia criada conseguir impedir a Bruxa mas perde tudo que criou. Wanda vive isolada estudando sobre o Caos e Multiversos até Doutor Estranho pedir sua ajuda.",
+    "img": "https://recreio.uol.com.br/media/_versions/legacy/2021/06/02/wandavision-1230176_widexl.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Vingadores: Era de Ultron",
+      "Capitão America: Guerra Cívil",
+      "Vingadores: Guerra Infinita",
+      "Vingadores: Ultimato",
+      "WandaVision"
+    ],
+    "teory": "Seu poder do Caos pode ser um dos futuros da marvel, ajudará Doutor Estranho no multiverso da loucura. Pode trazer os X-men a vida e mudar toda a realidade existente."
+  },
+  {
+    "id": 52,
+    "name": "Visão",
+    "history": "Visão foi criado novamente por Wanda e ajuda da joia da mente. Ajuda Wanda a derrotar Agatha mas acaba desaparecendo junto com seus filhos, ele vive dentro de Wanda.",
+    "img": "https://ovicio.com.br/wp-content/uploads/2021/02/20210226-vision-marvel-555x555.jpeg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Vingadores: Era de Ultron",
+      "Capitão America: Guerra Cívil",
+      "Vingadores: Guerra Infinita",
+      "Vingadores: Ultimato",
+      "WandaVision"
+    ],
+    "teory": "Poderá voltar a vida com ajuda de Wanda."
+  },
+  {
+    "id": 53,
+    "name": "Agatha Harkness",
+    "history": "Agatha Harkness é uma bruxa poderosa dos tempos antigos que vive das magias de outras pessoas, manipula Wanda em seu desespero e controla ela para criar um novo mundo, mas Wanda descobre e acaba derrotando Agatha.",
+    "img": "https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2021/10/Agatha-Harkness-WandaVision.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "WandaVision"
+    ],
+    "teory": null
+  },
+  {
+    "id": 54,
+    "name": "Monica Rambeau",
+    "history": "Filha da amiga de Capitã Marvel, depois de ter voltado do beep e descobrir que sua mão morreu, se torna uma agente e participa do caso onde Wanda criou uma cidade do zero, seu corpo foi modificado e agora poderes, no final acaba ajudando Wanda a derrotar Agatha.",
+    "img": "https://geeksaw.com.br/wp-content/uploads/2021/03/wandavision-what-are-monica-rambeau-superpowers-explained-1259727.jpeg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "WandaVision"
+    ],
+    "teory": "Ganhou super poderes e pode fazer parte dos vingadores no futuro."
+  },
+  {
+    "id": 55,
+    "name": "Tyler Hayward",
+    "history": "Tyler é líder da S.W.O.R.D e roubou a empresa da mãe de Monica, se torna inimigo da Rambeau e Wanda por tentar usar o corpo do Visão.",
+    "img": "https://thedirect.s3.amazonaws.com/media/photos/word3.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "WandaVision"
+    ],
+    "teory": null
+  },
+  {
+    "id": 56,
+    "name": "Jimmy Woo",
+    "history": "Jimmy Woo é policial que supervisionou o Homem Formiga e ajuda a investigar a cidade na qual Wanda criou.",
+    "img": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/jimmy.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Homem Formiga",
+      "WandaVision"
+    ],
+    "teory": null
+  },
+  {
+    "id": 57,
+    "name": "Darcy Lewis",
+    "history": "Darcy foi chamada para ajudar na investigação da cidade criada por Wanda.",
+    "img": "https://i.pinimg.com/originals/49/c7/d9/49c7d968406cca2084be5c7a13a839ce.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Thor",
+      "Thor: Mundo Sombrio",
+      "WandaVision"
+    ],
+    "teory": null
+  },
+  {
+    "id": 58,
+    "name": "Thomas Maximoff",
+    "history": "Criado pelo Caos da Wanda, Thomas tem um poder de super velocidade, acabou sumindo junto com a cidade mas vive dentro de Wanda",
+    "img": "https://64.media.tumblr.com/0790079876135580af67cc10aac73aaa/328608443cdaee45-17/s400x600/ecaa7abdfda1d343d70808f4da1e7c26533d356f.png",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "WandaVision"
+    ],
+    "teory": "Poderá voltar a vida com ajuda de Wanda e virar um herói dos Jovens Vingadores."
+  },
+  {
+    "id": 59,
+    "name": "Billy Maximoff",
+    "history": "Criado pelo Caos da Wanda, Billy tem poderes da mente e alguns parecido com da sua mãe, acabou sumindo junto com a cidade mas vive dentro de Wanda.",
+    "img": "https://i.pinimg.com/originals/82/c0/e7/82c0e7697f761e93e99b445bd773ddc1.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "WandaVision"
+    ],
+    "teory": "Poderá voltar a vida com ajuda de Wanda e virar um herói dos Jovens Vingadores."
+  },
+  {
+    "id": 60,
+    "name": "Pietro Maximoff",
+    "history": "Pietro volta a vida como outro personagem criado por Agatha para enganar Wanda, com mesmo poderes de velociado é uma marionete criado no mundo de Wanda.",
+    "img": "https://static.papergeek.fr/2021/03/Evan-Peters-Quicksilver-WandaVision.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "WandaVision"
+    ],
+    "teory": "Poderá voltar a vida por Wanda e se tornar o mesmo ator dos X-Men ou pode se tornar um vilão com outro nome."
+  },
+  {
+    "id": 1,
+    "name": "Loki",
+    "history": "Foi morto por Thanos em Guerra Infinita mas volta a vida depois que os vingadores voltar ao passado, mas acaba indo para outra linha do tempo onde é caçado pela AVT então se junta a uma versão mulher de Loki, ela manda ele para outra ramificação e depois mata Kang, o conquistador abrindo varias ramificações do tempo podendo haver guerra multiversal.",
+    "img": "https://disneyplusbrasil.com.br/wp-content/uploads/2021/06/Loki-Presidente-1024x576.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Thor",
+      "Vingadores",
+      "Thor: Ragnarok",
+      "Vingadores: Guerra Infinita",
+      "Vingadores: Ultimato",
+      "Loki: Temporada 1"
+    ],
+    "teory": "Está no meio da grande guerra multiversal contra o Kang, O conquistador."
+  },
+  {
+    "id": 2,
+    "name": "Sylvie",
+    "history": "Sylvie é uma versão do Loki feminino que vive fugindo da AVT desde criança por ser uma variante do tempo, se junta a Loki, juntos chegam ao final do tempo onde manda Loki para outra linha do tempoe logo depois mata Kang, o conquistador abrindo varias ramificações do tempo podendo haver guerra multiversal.",
+    "img": "https://geeksinaction.com.br/wp-content/uploads/2021/06/ladyloki2.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Loki: Temporada 1"
+    ],
+    "teory": "Poderá participar com Loki da guerra multiversal contra o Kang, O conquistador"
+  },
+  {
+    "id": 3,
+    "name": "Kid Loki",
+    "history": "Kid Loki depois de matar Thor acaba virando uma ramificação, pego pela AVT vive no vasto vazio do tempo com outras versões de Loki.",
+    "img": "https://disneyplusbrasil.com.br/wp-content/uploads/2021/07/Kid-Loki-Variante-mais-velha.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Loki: Temporada 1"
+    ],
+    "teory": "Pode se juntar aos Jovens Vingadores no futuro."
+  },
+  {
+    "id": 4,
+    "name": "Mobius M. Mobius",
+    "history": "Mobius é um agente da AVT que acaba se tornando amigo de Loki, depois de descobrir segredos da AVT se virá contra a agência e ajuda Loki para tentar impedir a AVT.",
+    "img": "https://64.media.tumblr.com/75316fc834cfba3a132ed88a9eff7715/e2e115fca009a87e-cf/s1280x1920/8ba56d651d26332e5408131ee3c74115b5a9b633.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Loki: Temporada 1"
+    ],
+    "teory": "Nos quadrinhos é muito presente nas histórias do quarteto fantástico e poderá aparecer novamente."
+  },
+  {
+    "id": 5,
+    "name": "Kang, O Conquistador",
+    "history": "É o ser que controla a linha do tempo pela AVT, foi morto pela Sylvie e suas outras versões liberadas causando ramificações na linha do tempo, voltará como um novo vilão ditador.",
+    "img": "https://observatoriodocinema.uol.com.br/wp-content/uploads/2021/07/loki-kang.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Loki: Temporada 1"
+    ],
+    "teory": "Pode se tornar o mais novo grande vilão da marvel e trazer a guerra multiversal e todas suas versões paralelas."
+  },
+  {
+    "id": 5,
+    "name": "Ravonna",
+    "history": "Ravonna é serva do Kang, sendo líder da AVT, tambem enganada quer descobrir a verdade sobre Kang e seu propósito na agência.",
+    "img": "https://assets3.thrillist.com/v1/image/2984703/414x310/crop;webp=auto;jpeg_quality=60;progressive.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Loki: Temporada 1"
+    ],
+    "teory": null
+  },
+  {
+    "id": 5,
+    "name": "Hunter B-15",
+    "history": "Hunter B-15 é agente da AVT, depois de descobrir que é enganada pela AVT ajuda Loki a fungir. Junto com Morbius tenta impedir a AVT e controlar as ramificações depois da morte de Kang.",
+    "img": "https://cm-santiago-do-cacem.pt/img/sci-fi/82/loki-director-dismisses-fan-theory-about-one-loki-variant-ahead-final-episode.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Loki: Temporada 1"
+    ],
+    "teory": null
+  }
+]

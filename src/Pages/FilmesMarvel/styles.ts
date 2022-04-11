@@ -47,7 +47,7 @@ export const ContainerCard = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: ${px2vw(92)};
+  gap: ${px2vw(30)};
   color: var(--primaryColor);
   justify-content: center;
   transform: scale(1.08);

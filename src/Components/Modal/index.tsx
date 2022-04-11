@@ -1,5 +1,6 @@
-import { FaPlayCircle, FaRegTimesCircle, FaStar } from 'react-icons/fa';
-import { Image, ImageMenor } from '../../Pages/Home/styles';
+import { FaEye, FaPlayCircle, FaRegTimesCircle, FaStar } from 'react-icons/fa';
+import { useState } from 'react';
+import { Image, ImageMenor } from '../../Pages/PersonagensMarvel/styles';
 import { Card } from '../Card';
 import { px2vw } from '../../Styles/global';
 import { ResponseFilmsMarvel } from '../../Hooks/useAuth';
@@ -21,6 +22,8 @@ export const ModalDetails = ({
   setShowModal,
   showModal,
 }: Character) => {
+  const [showTeory, setShowTeory] = useState(false);
+
   const renderModal = () => {
     if (data) {
       return (
@@ -43,10 +46,23 @@ export const ModalDetails = ({
                     window.open(data.link, '_blank');
                   }}
                 />
+                {data.teory ? (
+                  <FaEye
+                    size={24}
+                    color="white"
+                    style={{
+                      marginLeft: px2vw(10),
+                      cursor: 'pointer',
+                    }}
+                    onClick={() => {
+                      setShowTeory(!showTeory);
+                    }}
+                  />
+                ) : null}
               </Text>
 
               <Text size={10} top={0}>
-                {data.text}
+                {showTeory ? data.teory : data.text}
               </Text>
 
               <ContainerApparition>
