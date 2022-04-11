@@ -38,7 +38,7 @@
   {
     "id": 53,
     "name": "Agatha Harkness",
-    "history": "Agatha Harkness é uma bruxa poderosa dos tempos antigos que vive das magias de outras pessoas, manipula Wanda em seu desespero e controla ela para criar um novo mundo, mas Wanda descobre e acaba derrotando Agatha.",
+    "history": "Agatha Harkness é uma bruxa poderosa dos tempos antigos que vive das magias de outras pessoas, manipula Wanda em seu desespero e controla ela para criar um novo mundo, mas Wanda descobre e acaba derrotando Agatha. Ficou presa no corpo de vizinha chata pelo resto da vida sendo vigiada por Wanda.",
     "img": "https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2021/10/Agatha-Harkness-WandaVision.jpg",
     "faseOne": false,
     "faseTwo": false,
@@ -138,8 +138,8 @@
   },
   {
     "id": 60,
-    "name": "Pietro Maximoff",
-    "history": "Pietro volta a vida como outro personagem criado por Agatha para enganar Wanda, com mesmo poderes de velocidado é uma marionete controlada no mundo de Wanda sendo o falso Pietro.",
+    "name": "Ralph Bohner",
+    "history": "Ralph ou falso Pietro é trazido de 'volta a vida' como outro personagem criado por Agatha para enganar Wanda, com mesmo poderes de velocidado é uma marionete controlada no mundo de Wanda sendo o falso Pietro.",
     "img": "https://static.papergeek.fr/2021/03/Evan-Peters-Quicksilver-WandaVision.jpg",
     "faseOne": false,
     "faseTwo": false,
@@ -148,7 +148,7 @@
     "films": [
       "WandaVision"
     ],
-    "teory": null
+    "teory": "Pode ser um nome falso e ser o morador desaparecido mencionado por Woo e ter uma relação com os mutantes."
   },
   {
     "id": 1,
