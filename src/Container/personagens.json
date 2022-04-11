@@ -2,7 +2,7 @@
   {
     "id": 51,
     "name": "Wanda Maximoff",
-    "history": "Wanda Maximoff cria um mundo e uma familia apartir do CAOS, controlando todos ao seu redor. Está sendo enganada por Agatha mas depois que descobri com ajuda de Monica e sua familia criada conseguir impedir a Bruxa mas perde tudo que criou. Wanda vive isolada estudando sobre o Caos e Multiversos até Doutor Estranho pedir sua ajuda.",
+    "history": "Wanda Maximoff cria um mundo e uma familia apartir do CAOS, controlando todos ao seu redor. Está sendo enganada por Agatha mas depois que descobri com ajuda de Monica e sua familia criada conseguir impedir a Bruxa mas perde tudo que criou. Wanda vive isolada estudando sobre o darkhold e o caos até Doutor Estranho pedir sua ajuda.",
     "img": "https://recreio.uol.com.br/media/_versions/legacy/2021/06/02/wandavision-1230176_widexl.jpg",
     "faseOne": false,
     "faseTwo": false,
@@ -20,7 +20,7 @@
   {
     "id": 52,
     "name": "Visão",
-    "history": "Visão foi criado novamente por Wanda e ajuda da joia da mente. Ajuda Wanda a derrotar Agatha mas acaba desaparecendo junto com seus filhos, ele vive dentro de Wanda.",
+    "history": "Visão foi criado novamente por Wanda. Juntos derrotar Agatha mas acaba desaparecendo junto com seus filhos, antes de desaparecer ele transfere conhecimento para o Visão sem cor, então esse visão vai embora para entender quem ele é.",
     "img": "https://ovicio.com.br/wp-content/uploads/2021/02/20210226-vision-marvel-555x555.jpeg",
     "faseOne": false,
     "faseTwo": false,
@@ -33,7 +33,7 @@
       "Vingadores: Ultimato",
       "WandaVision"
     ],
-    "teory": "O Visão totalmente branco, sem mente e memória está vivo e tentando entender as coisas, aparecerá novamente em algum momento."
+    "teory": "O Visão totalmente branco, sem mente e memória está vivo e tentando entender quem é de verdade, aparecerá novamente em algum momento."
   },
   {
     "id": 53,
@@ -61,12 +61,12 @@
     "films": [
       "WandaVision"
     ],
-    "teory": "Ganhou super poderes e pode fazer parte dos vingadores no futuro."
+    "teory": "Ganhou super poderes podendo se torna uma heroina no futuro, sua historia está vinculada com de Feiticeira Escalarte e Capitã Marvel."
   },
   {
     "id": 55,
     "name": "Tyler Hayward",
-    "history": "Tyler é líder da S.W.O.R.D e roubou a empresa da mãe de Monica, se torna inimigo da Rambeau e Wanda por tentar usar o corpo do Visão.",
+    "history": "Tyler é líder da S.W.O.R.D e roubou a empresa da mãe de Monica, se torna inimigo da Rambeau e Wanda por tentar usar o corpo do Visão. Seus planos afundam e é preso.",
     "img": "https://thedirect.s3.amazonaws.com/media/photos/word3.jpg",
     "faseOne": false,
     "faseTwo": false,
@@ -139,7 +139,7 @@
   {
     "id": 60,
     "name": "Pietro Maximoff",
-    "history": "Pietro volta a vida como outro personagem criado por Agatha para enganar Wanda, com mesmo poderes de velociado é uma marionete criado no mundo de Wanda.",
+    "history": "Pietro volta a vida como outro personagem criado por Agatha para enganar Wanda, com mesmo poderes de velocidado é uma marionete controlada no mundo de Wanda sendo o falso Pietro.",
     "img": "https://static.papergeek.fr/2021/03/Evan-Peters-Quicksilver-WandaVision.jpg",
     "faseOne": false,
     "faseTwo": false,
@@ -148,7 +148,7 @@
     "films": [
       "WandaVision"
     ],
-    "teory": "Poderá voltar a vida por Wanda e se tornar o mesmo ator dos X-Men ou pode se tornar um vilão com outro nome."
+    "teory": null
   },
   {
     "id": 1,
