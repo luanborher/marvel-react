@@ -155,7 +155,7 @@
   {
     "id": 61,
     "name": "Capitão America",
-    "history": "",
+    "history": "Falcão não queria se tornar o novo Capitão America, quase perdeu o escudo para um novato, depois de muita conversa e briga com Bucky e afim de se tornar uma inspiração para as pessoas resolve vestir o manto e se tornar o mais novo Capitão America.",
     "img": "https://ovicio.com.br/wp-content/uploads/2021/04/20210423-7dcca350-f134-4dc6-ba66-c66f3bff1875.jpg",
     "faseOne": false,
     "faseTwo": false,
@@ -165,6 +165,7 @@
       "Capitão America: Soldado Invernal",
       "Vingadores: Era de Ultron",
       "Capitão America: Guerra Civil",
+      "Homem Formiga",
       "Vingadores: Guerra Infinita",
       "Vingadores: Ultimato",
       "Falcão e o Soldado Invernal"
@@ -174,7 +175,7 @@
   {
     "id": 62,
     "name": "Soldado Invernal",
-    "history": "",
+    "history": "Bucky tenta ter uma vida normal mas falha então volta a ação com Falcão. Bucky tem uma ligação com Wakanda e tenta ser uma pessoa melhor, ajuda Sam a se tornar o novo Capitão America.",
     "img": "https://www.pinkvilla.com/files/styles/amp_metadata_content_image/public/the_falcon_and_the_winter_soldier_director_kari_skogland_sebastian_stan_bucky_barnes_future.jpg",
     "faseOne": false,
     "faseTwo": false,
@@ -187,6 +188,156 @@
       "Vingadores: Guerra Infinita",
       "Vingadores: Ultimato",
       "What If...?",
+      "Falcão e o Soldado Invernal"
+    ],
+    "teory": null
+  },
+  {
+    "id": 62,
+    "name": "Agente Americano",
+    "history": "Depois da tentativa falha de se tornar o Capitão America e louco por ter tomado uma droga que da super força, é chamado por Fontaine para ser o Agente Americano.",
+    "img": "https://technewsbrasil.com.br/wp-content/uploads/2021/03/agente-americano-falcao-e-o-soldado-invernal-1200x900.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Falcão e o Soldado Invernal"
+    ],
+    "teory": "Pode ser que entre para uma organização que está sendo criada por Valentina Fontaine junto com a irmã de Viúva Negra."
+  },
+  {
+    "id": 62,
+    "name": "Agente Carter",
+    "history": "Carter virou uma fugitiva do EUA e vive em outro pais, ajudou Sam e Bucky com os terroristas, mas tudo para seu interesse e virou o Madripoor.",
+    "img": "https://technewsbrasil.com.br/wp-content/uploads/2021/03/sharon-carter.png",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Capitão America: Soldado Invernal",
+      "Capitão America: Guerra Cívil",
+      "Falcão e o Soldado Invernal"
+    ],
+    "teory": null
+  },
+  {
+    "id": 62,
+    "name": "Barão Zemo",
+    "history": "Barão Zemo saiu da cadeia para ajudar Falcão e Soldado Invernal, sempre com um ar suspeito ainda sim ajuda. Acaba sendo preso por Wakanda.",
+    "img": "https://img.ibxk.com.br/2021/03/17/17193849755057.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Capitão America: Guerra Cívil",
+      "Falcão e o Soldado Invernal"
+    ],
+    "teory": null
+  },
+  {
+    "id": 62,
+    "name": "Karli Morgenthau",
+    "history": "Karli Morgenthau foi a lider de uma grupo terrorista que usa um soro de super força para fazer oque quiser, acreditam que o mundo era melhor com o beep, perdeu sua guerra quando se deixou levar pela vingança.",
+    "img": "https://noticiasdatv.uol.com.br/media/uploads/artigos/erin-kellyman-falcao-e-o-soldado-invernal-disney-plus.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Falcão e o Soldado Invernal"
+    ],
+    "teory": null
+  },
+  {
+    "id": 62,
+    "name": "Patriota",
+    "history": "Um garoto Negro que vive no suburbio que ajuda Isaiah a viver.",
+    "img": "https://ovicio.com.br/wp-content/uploads/2021/03/20210329-eli-bradley-4163b1f.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Falcão e o Soldado Invernal"
+    ],
+    "teory": "Teoria que pode virar o Patriota no futuro e fazer parte dos Jovens Vingadores."
+  },
+  {
+    "id": 62,
+    "name": "Joaquin Torres",
+    "history": "Forças Aérea do exercito ajudou Sam contra os terroristas que tinham super força, ganhou o antigo uniforme do Falcão antes de se tornar o Capitão America.",
+    "img": "https://olhardigital.com.br/wp-content/uploads/2021/03/torres.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Falcão e o Soldado Invernal"
+    ],
+    "teory": "Teoria que pode virar um heroi com a antiga roupa do Falcão se tornando o sucessor."
+  },
+  {
+    "id": 62,
+    "name": "Sarah Wilson",
+    "history": "Sarah é irmã de Sam que se tornou o novo Capitão America, cuidou de seus filhos e o negocio da familia enquanto Sam estava beepado.",
+    "img": "https://universoheroico.com.br/wp-content/uploads/2021/03/Sarah-Wilson-em-Falcao-e-o-Soldado-Invernal.jpeg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Falcão e o Soldado Invernal"
+    ],
+    "teory": null
+  },
+  {
+    "id": 62,
+    "name": "James Rhodes",
+    "history": "Ainda trabalhando para o exercito James aparece na historia do Falcão e Soldado Invernal, ajudando a convencer Sam de se tornar o Capitão America.",
+    "img": "https://64.media.tumblr.com/f9aacfbaabafddadeaa2305d989e33a5/tumblr_inline_ovpihsJcJJ1sss5ih_640.png",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Homem de Ferro",
+      "Homem de Ferro II",
+      "Homem de Ferro III",
+      "Capitão America: Guerra Cívil",
+      "Vingadores: Guerra Infinita",
+      "Vingadores: Ultimato",
+      "Falcão e o Soldado Invernal"
+    ],
+    "teory": null
+  },
+  {
+    "id": 62,
+    "name": "Valentina Allegra de Fontaine",
+    "history": "Valentina Allegra de Fontaine está juntando alguns anti-heroi como Agente Americano e Helena.",
+    "img": "https://cdn.mos.cms.futurecdn.net/VEtiEG3yoBTepcT39VGcTB-1200-80.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
+      "Falcão e o Soldado Invernal",
+      "Viúva Negra"
+    ],
+    "teory": null
+  },
+  {
+    "id": 62,
+    "name": "Isaiah Bradley",
+    "history": "Com os meus poderes do Capitão America mas escondido por ser Negro, lutou em 1951 e arrancou um braço do Soldado Invernal ainda quando estava sendo controlado pela HIDRA, vive com um menino que futuramente pode se tornar o Patriota, ajudou Sam a pensar em se tornar o Capitão America.",
+    "img": "https://epipoca.com.br/wp-content/uploads/2021/03/isaiah-bradley-falcon-winter-soldier-1200x900.png",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "films": [
       "Falcão e o Soldado Invernal"
     ],
     "teory": null

@@ -55,19 +55,30 @@
     "link": "https://www.disneyplus.com/pt-br/series/wandavision/4SrN28ZjDLwH",
     "category": "Série",
     "fase": 4,
-    "note": [1, 2, 3],
+    "note": [1, 2, 3, 4],
     "teory": "Wanda pode reescrever todo o multiverso e trazer mutantes para esse universo e ajudará Doutor Estranho no multiverso da loucura."
   },
   {
     "id": 114,
     "title": "Falcão e o Soldado Invernal",
-    "text": "Sam Wilson, o Falcão, descobre uma nova ameaça enquanto lida com problemas em casa. Bucky Barnes tenta desesperadamente se reintegrar à sociedade, mas é atormentado por pesadelos que revelam atos terríveis do Soldado Invernal.",
+    "text": "Falcão e Solodado Invernal com ajuda de Barão Zemo, obrigados a formar dupla para derrotar um grupo terrorista que usa uma droga de super força. Um novo capitão america é criado mas falha em ser capitão, se corrompe com a droga e vira o Agente Americano recrutado por Fontaine.",
     "image": "https://br.web.img3.acsta.net/pictures/20/12/11/01/46/4588265.jpg",
-    "galery": [],
+    "galery": [
+      "https://kanto.legiaodosherois.com.br/w1200-h628-cfill/wp-content/uploads/2021/04/legiao_reRNylGTPizI.jpg.jpeg",
+      "https://kanto.legiaodosherois.com.br/w760-h398-cfill/wp-content/uploads/2021/04/legiao_vb4kWR6gX7VN.jpg.jpeg",
+      "https://disneyplusbrasil.com.br/wp-content/uploads/2021/04/Sharon-Carter-Vila-1024x576.jpg",
+      "https://cm-santiago-do-cacem.pt/img/sci-fi/10/meet-cast-marvel-s-falcon-4.jpg",
+      "https://observatoriodeseries.uol.com.br/wp-content/uploads/2021/06/Falcao-e-o-Soldado-Invernal.jpg",
+      "https://geeksinaction.com.br/wp-content/uploads/2021/03/brad2-752x440.jpg",
+      "https://epipoca.com.br/wp-content/uploads/2021/04/torres-1200x900.jpg",
+      "https://www.hqzona.com.br/wp-content/uploads/2021/03/83ef10d26b7dbebff34a04d80ca91870.png",
+      "https://disneyplusbrasil.com.br/wp-content/uploads/2021/04/Condessa-Valentina-Allegra-de-Fontaine-1024x633.jpg",
+      "https://noticiasdatv.uol.com.br/media/uploads/artigos/erin-kellyman-falcao-e-o-soldado-invernal-disney-plus.jpg"
+    ],
     "link": "https://www.disneyplus.com/pt-br/series/falcao-e-o-soldado-invernal/4gglDBMx8icA",
     "category": "Série",
     "fase": 4,
-    "note": [1, 2, 3, 4],
+    "note": [1, 2, 3],
     "teory": null
   },
   {
