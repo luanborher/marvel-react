@@ -55,6 +55,9 @@ export const ContainerCard = styled.div`
 
 export const Slider = styled.div<Current>`
   display: ${props => (props.currentSlide === 'slide' ? 'none' : '')};
+
+  animation-name: fade;
+  animation-duration: 0.5s;
 `;
 
 export const Image = styled.img`
@@ -64,6 +67,7 @@ export const Image = styled.img`
   position: relative;
   margin-right: auto;
   object-fit: cover;
+  background-color: #fff;
 `;
 
 export const ContainerInfoCard = styled.div`

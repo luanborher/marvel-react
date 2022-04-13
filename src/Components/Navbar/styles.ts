@@ -2,12 +2,15 @@ import styled from 'styled-components';
 import { px2vw } from '../../Styles/global';
 
 export const HeaderNavbar = styled.header`
-  width: 100vw;
-  height: 12vh;
+  width: 100%;
+  height: ${px2vw(80)};
   box-shadow: 0px 0px ${px2vw(8)} var(--primaryColor);
-  display: flex;
-  align-items: center;
   background-color: black;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 `;
 
 export const Logo = styled.img`
@@ -16,18 +19,8 @@ export const Logo = styled.img`
   margin-left: ${px2vw(50)};
 `;
 
-export const Navigation = styled.div`
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  height: 100%;
-  padding: ${px2vw(98)};
-`;
-
 export const Links = styled.div`
   display: flex;
-  align-items: center;
-  margin-top: ${px2vw(20)};
 `;
 
 export const Image = styled.img`
@@ -39,4 +32,5 @@ export const Close = styled.div`
   display: flex;
   align-items: center;
   margin-left: ${px2vw(46)};
+  margin-right: ${px2vw(20)};
 `;

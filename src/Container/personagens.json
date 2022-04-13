@@ -2,448 +2,507 @@
   {
     "id": 51,
     "name": "Wanda Maximoff",
-    "history": "Wanda Maximoff cria um mundo e uma familia apartir do CAOS, controlando todos ao seu redor. Está sendo enganada por Agatha mas depois que descobri com ajuda de Monica e sua familia criada conseguir impedir a Bruxa mas perde tudo que criou. Wanda vive isolada estudando sobre o darkhold e o caos até Doutor Estranho pedir sua ajuda.",
     "img": "https://recreio.uol.com.br/media/_versions/legacy/2021/06/02/wandavision-1230176_widexl.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Vingadores: Era de Ultron",
-      "Capitão America: Guerra Cívil",
-      "Vingadores: Guerra Infinita",
-      "Vingadores: Ultimato",
-      "WandaVision",
-      "What if...?"
-    ],
     "teory": "Seu poder do Caos pode ser um dos futuros da marvel, ajudará Doutor Estranho no multiverso da loucura. Pode trazer os X-men a vida e mudar toda a realidade existente."
   },
   {
     "id": 52,
     "name": "Visão",
-    "history": "Visão foi criado novamente por Wanda. Juntos derrotar Agatha mas acaba desaparecendo junto com seus filhos, antes de desaparecer ele transfere conhecimento para o Visão sem cor, então esse visão vai embora para entender quem ele é.",
     "img": "https://ovicio.com.br/wp-content/uploads/2021/02/20210226-vision-marvel-555x555.jpeg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Vingadores: Era de Ultron",
-      "Capitão America: Guerra Cívil",
-      "Vingadores: Guerra Infinita",
-      "Vingadores: Ultimato",
-      "WandaVision",
-      "What if...?"
-    ],
     "teory": "O Visão totalmente branco, sem mente e memória está vivo e tentando entender quem é de verdade, aparecerá novamente em algum momento."
   },
   {
     "id": 53,
     "name": "Agatha Harkness",
-    "history": "Agatha Harkness é uma bruxa poderosa dos tempos antigos que vive das magias de outras pessoas, manipula Wanda em seu desespero e controla ela para criar um novo mundo, mas Wanda descobre e acaba derrotando Agatha. Ficou presa no corpo de vizinha chata pelo resto da vida sendo vigiada por Wanda.",
     "img": "https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2021/10/Agatha-Harkness-WandaVision.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "WandaVision"
-    ],
     "teory": null
   },
   {
     "id": 54,
     "name": "Monica Rambeau",
-    "history": "Filha da Rambeau, amiga de Capitã Marvel. Depois de ter voltado do beep e descobrir que sua mão morreu, volta ao seu trabalho de capitã e participa do caso onde Wanda criou uma cidade do zero, seu corpo foi modificado e liberou poderes que estavam em seu corpo, ajuda Wanda a derrotar Agatha. Chamada por Nick Fury para ir ao espaço.",
     "img": "https://geeksaw.com.br/wp-content/uploads/2021/03/wandavision-what-are-monica-rambeau-superpowers-explained-1259727.jpeg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "WandaVision"
-    ],
     "teory": "Ganhou super poderes podendo se torna uma heroina no futuro, sua historia está vinculada com de Feiticeira Escalarte e Capitã Marvel."
   },
   {
     "id": 55,
     "name": "Tyler Hayward",
-    "history": "Tyler é líder da S.W.O.R.D e roubou a empresa da mãe de Monica, se torna inimigo da Rambeau e Wanda por tentar usar o corpo do Visão. Seus planos afundam e é preso.",
     "img": "https://thedirect.s3.amazonaws.com/media/photos/word3.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "WandaVision"
-    ],
     "teory": null
   },
   {
     "id": 56,
     "name": "Jimmy Woo",
-    "history": "Jimmy Woo é policial que supervisionou o Homem Formiga e ajuda a investigar a cidade na qual Wanda criou.",
     "img": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/jimmy.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Homem Formiga",
-      "WandaVision"
-    ],
     "teory": null
   },
   {
     "id": 57,
     "name": "Darcy Lewis",
-    "history": "Darcy foi chamada para ajudar na investigação da cidade criada por Wanda.",
     "img": "https://i.pinimg.com/originals/49/c7/d9/49c7d968406cca2084be5c7a13a839ce.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Thor",
-      "Thor: Mundo Sombrio",
-      "WandaVision"
-    ],
     "teory": null
   },
   {
     "id": 58,
     "name": "Thomas Maximoff",
-    "history": "Criado pelo Caos da Wanda, Thomas tem um poder de super velocidade, acabou sumindo junto com a cidade mas vive dentro de Wanda",
     "img": "https://64.media.tumblr.com/0790079876135580af67cc10aac73aaa/328608443cdaee45-17/s400x600/ecaa7abdfda1d343d70808f4da1e7c26533d356f.png",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "WandaVision"
-    ],
     "teory": "Poderá voltar a vida com ajuda de Wanda e virar um herói dos Jovens Vingadores."
   },
   {
     "id": 59,
     "name": "Billy Maximoff",
-    "history": "Criado pelo Caos da Wanda, Billy tem poderes da mente e alguns parecido com da sua mãe, acabou sumindo junto com a cidade mas vive dentro de Wanda.",
     "img": "https://i.pinimg.com/originals/82/c0/e7/82c0e7697f761e93e99b445bd773ddc1.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "WandaVision"
-    ],
     "teory": "Poderá voltar a vida com ajuda de Wanda e virar um herói dos Jovens Vingadores."
   },
   {
     "id": 60,
     "name": "Ralph Bohner",
-    "history": "Ralph ou falso Pietro é trazido de 'volta a vida' como outro personagem criado por Agatha para enganar Wanda, com mesmo poderes de velocidado é uma marionete controlada no mundo de Wanda sendo o falso Pietro.",
     "img": "https://static.papergeek.fr/2021/03/Evan-Peters-Quicksilver-WandaVision.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "WandaVision"
-    ],
     "teory": "Pode ser um nome falso e ser o morador desaparecido mencionado por Woo e ter uma relação com os mutantes."
   },
   {
     "id": 61,
     "name": "Capitão America",
-    "history": "Falcão não queria se tornar o novo Capitão America, quase perdeu o escudo para um novato, depois de muita conversa e briga com Bucky e afim de se tornar uma inspiração para as pessoas resolve vestir o manto e se tornar o mais novo Capitão America.",
     "img": "https://ovicio.com.br/wp-content/uploads/2021/04/20210423-7dcca350-f134-4dc6-ba66-c66f3bff1875.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Capitão America: Soldado Invernal",
-      "Vingadores: Era de Ultron",
-      "Capitão America: Guerra Civil",
-      "Homem Formiga",
-      "Vingadores: Guerra Infinita",
-      "Vingadores: Ultimato",
-      "Falcão e o Soldado Invernal"
-    ],
     "teory": null
   },
   {
     "id": 62,
     "name": "Soldado Invernal",
-    "history": "Bucky tenta ter uma vida normal mas falha então volta a ação com Falcão. Bucky tem uma ligação com Wakanda e tenta ser uma pessoa melhor, ajuda Sam a se tornar o novo Capitão America.",
     "img": "https://www.pinkvilla.com/files/styles/amp_metadata_content_image/public/the_falcon_and_the_winter_soldier_director_kari_skogland_sebastian_stan_bucky_barnes_future.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Capitão America: O Primeiro Vingador",
-      "Capitão America: Soldado Invernal",
-      "Capitão America: Guerra Civil",
-      "Vingadores: Guerra Infinita",
-      "Vingadores: Ultimato",
-      "What If...?",
-      "Falcão e o Soldado Invernal"
-    ],
     "teory": null
   },
   {
-    "id": 62,
+    "id": 63,
     "name": "Agente Americano",
-    "history": "Depois da tentativa falha de se tornar o Capitão America e louco por ter tomado uma droga que da super força, é chamado por Fontaine para ser o Agente Americano.",
     "img": "https://technewsbrasil.com.br/wp-content/uploads/2021/03/agente-americano-falcao-e-o-soldado-invernal-1200x900.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Falcão e o Soldado Invernal"
-    ],
     "teory": "Pode ser que entre para uma organização que está sendo criada por Valentina Fontaine junto com a irmã de Viúva Negra."
   },
   {
-    "id": 62,
+    "id": 64,
     "name": "Agente Carter",
-    "history": "Carter virou uma fugitiva do EUA e vive em outro pais, ajudou Sam e Bucky com os terroristas, mas tudo para seu interesse e virou o Madripoor.",
     "img": "https://technewsbrasil.com.br/wp-content/uploads/2021/03/sharon-carter.png",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Capitão America: Soldado Invernal",
-      "Capitão America: Guerra Cívil",
-      "Falcão e o Soldado Invernal"
-    ],
     "teory": null
   },
   {
-    "id": 62,
+    "id": 65,
     "name": "Barão Zemo",
-    "history": "Barão Zemo saiu da cadeia para ajudar Falcão e Soldado Invernal, sempre com um ar suspeito ainda sim ajuda. Acaba sendo preso por Wakanda.",
     "img": "https://img.ibxk.com.br/2021/03/17/17193849755057.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Capitão America: Guerra Cívil",
-      "Falcão e o Soldado Invernal"
-    ],
     "teory": null
   },
   {
-    "id": 62,
+    "id": 66,
     "name": "Karli Morgenthau",
-    "history": "Karli Morgenthau foi a lider de uma grupo terrorista que usa um soro de super força para fazer oque quiser, acreditam que o mundo era melhor com o beep, perdeu sua guerra quando se deixou levar pela vingança.",
     "img": "https://noticiasdatv.uol.com.br/media/uploads/artigos/erin-kellyman-falcao-e-o-soldado-invernal-disney-plus.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Falcão e o Soldado Invernal"
-    ],
     "teory": null
   },
   {
-    "id": 62,
+    "id": 67,
     "name": "Patriota",
-    "history": "Um garoto Negro que vive no suburbio que ajuda Isaiah a viver.",
     "img": "https://ovicio.com.br/wp-content/uploads/2021/03/20210329-eli-bradley-4163b1f.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Falcão e o Soldado Invernal"
-    ],
     "teory": "Teoria que pode virar o Patriota no futuro e fazer parte dos Jovens Vingadores."
   },
   {
-    "id": 62,
+    "id": 68,
     "name": "Joaquin Torres",
-    "history": "Forças Aérea do exercito ajudou Sam contra os terroristas que tinham super força, ganhou o antigo uniforme do Falcão antes de se tornar o Capitão America.",
     "img": "https://olhardigital.com.br/wp-content/uploads/2021/03/torres.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Falcão e o Soldado Invernal"
-    ],
     "teory": "Teoria que pode virar um heroi com a antiga roupa do Falcão se tornando o sucessor."
   },
   {
-    "id": 62,
+    "id": 69,
     "name": "Sarah Wilson",
-    "history": "Sarah é irmã de Sam que se tornou o novo Capitão America, cuidou de seus filhos e o negocio da familia enquanto Sam estava beepado.",
     "img": "https://universoheroico.com.br/wp-content/uploads/2021/03/Sarah-Wilson-em-Falcao-e-o-Soldado-Invernal.jpeg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Falcão e o Soldado Invernal"
-    ],
     "teory": null
   },
   {
-    "id": 62,
-    "name": "James Rhodes",
-    "history": "Ainda trabalhando para o exercito James aparece na historia do Falcão e Soldado Invernal, ajudando a convencer Sam de se tornar o Capitão America.",
-    "img": "https://64.media.tumblr.com/f9aacfbaabafddadeaa2305d989e33a5/tumblr_inline_ovpihsJcJJ1sss5ih_640.png",
+    "id": 69,
+    "name": "Lemar Hoskins (Estrela Negra)",
+    "img": "https://hollywoodlife.com/wp-content/uploads/2021/03/Battlestar-5-Things-Captain-America-Marvel-vertical.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Homem de Ferro",
-      "Homem de Ferro II",
-      "Homem de Ferro III",
-      "Capitão America: Guerra Cívil",
-      "Vingadores: Guerra Infinita",
-      "Vingadores: Ultimato",
-      "Falcão e o Soldado Invernal"
-    ],
     "teory": null
   },
   {
-    "id": 62,
+    "id": 71,
     "name": "Valentina Allegra de Fontaine",
-    "history": "Valentina Allegra de Fontaine está juntando alguns anti-heroi como Agente Americano e Helena.",
     "img": "https://cdn.mos.cms.futurecdn.net/VEtiEG3yoBTepcT39VGcTB-1200-80.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Falcão e o Soldado Invernal",
-      "Viúva Negra"
-    ],
     "teory": null
   },
   {
-    "id": 62,
+    "id": 72,
     "name": "Isaiah Bradley",
-    "history": "Com os meus poderes do Capitão America mas escondido por ser Negro, lutou em 1951 e arrancou um braço do Soldado Invernal ainda quando estava sendo controlado pela HIDRA, vive com um menino que futuramente pode se tornar o Patriota, ajudou Sam a pensar em se tornar o Capitão America.",
-    "img": "https://epipoca.com.br/wp-content/uploads/2021/03/isaiah-bradley-falcon-winter-soldier-1200x900.png",
+    "img": "https://www.hqzona.com.br/wp-content/uploads/2021/03/83ef10d26b7dbebff34a04d80ca91870.png",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Falcão e o Soldado Invernal"
-    ],
     "teory": null
   },
   {
-    "id": 1,
-    "name": "Loki",
-    "history": "Foi morto por Thanos em Guerra Infinita mas volta a vida depois que os vingadores voltar ao passado, mas acaba indo para outra linha do tempo onde é caçado pela AVT então se junta a uma versão mulher de Loki, ela manda ele para outra ramificação e depois mata Kang, o conquistador abrindo varias ramificações do tempo podendo haver guerra multiversal.",
-    "img": "https://disneyplusbrasil.com.br/wp-content/uploads/2021/06/Loki-Presidente-1024x576.jpg",
+    "id": 72,
+    "name": "Ayo",
+    "img": "https://i.pinimg.com/originals/d0/0e/2a/d00e2a608c07e55e24a84b8e173d3c1b.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Thor",
-      "Vingadores",
-      "Thor: Ragnarok",
-      "Vingadores: Guerra Infinita",
-      "Vingadores: Ultimato",
-      "Loki: Temporada 1",
-      "What if...?"
-    ],
+    "teory": null
+  },
+  {
+    "id": 73,
+    "name": "Loki",
+    "img": "https://disneyplusbrasil.com.br/wp-content/uploads/2021/06/Loki-Presidente-1024x576.jpg",
+    "img2": null,
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
     "teory": "Está no meio da grande guerra multiversal contra o Kang, O conquistador."
   },
   {
-    "id": 2,
+    "id": 74,
     "name": "Sylvie",
-    "history": "Sylvie é uma versão do Loki feminino que vive fugindo da AVT desde criança por ser uma variante do tempo, se junta a Loki, juntos chegam ao final do tempo onde manda Loki para outra linha do tempoe logo depois mata Kang, o conquistador abrindo varias ramificações do tempo podendo haver guerra multiversal.",
     "img": "https://geeksinaction.com.br/wp-content/uploads/2021/06/ladyloki2.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Loki: Temporada 1"
-    ],
     "teory": "Poderá participar com Loki da guerra multiversal contra o Kang, O conquistador"
   },
   {
-    "id": 3,
+    "id": 75,
     "name": "Kid Loki",
-    "history": "Kid Loki depois de matar Thor acaba virando uma ramificação, pego pela AVT vive no vasto vazio do tempo com outras versões de Loki.",
     "img": "https://disneyplusbrasil.com.br/wp-content/uploads/2021/07/Kid-Loki-Variante-mais-velha.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Loki: Temporada 1"
-    ],
     "teory": "Pode se juntar aos Jovens Vingadores no futuro."
   },
   {
-    "id": 4,
+    "id": 76,
     "name": "Mobius M. Mobius",
-    "history": "Mobius é um agente da AVT que acaba se tornando amigo de Loki, depois de descobrir segredos da AVT se virá contra a agência e ajuda Loki para tentar impedir a AVT.",
     "img": "https://64.media.tumblr.com/75316fc834cfba3a132ed88a9eff7715/e2e115fca009a87e-cf/s1280x1920/8ba56d651d26332e5408131ee3c74115b5a9b633.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Loki: Temporada 1"
-    ],
     "teory": "Nos quadrinhos é muito presente nas histórias do quarteto fantástico e poderá aparecer novamente."
   },
   {
-    "id": 5,
+    "id": 77,
     "name": "Kang, O Conquistador",
-    "history": "É o ser que controla a linha do tempo pela AVT, foi morto pela Sylvie e suas outras versões liberadas causando ramificações na linha do tempo, voltará como um novo vilão ditador.",
     "img": "https://observatoriodocinema.uol.com.br/wp-content/uploads/2021/07/loki-kang.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Loki: Temporada 1"
-    ],
     "teory": "Pode se tornar o mais novo grande vilão da marvel e trazer a guerra multiversal e todas suas versões paralelas."
   },
   {
-    "id": 5,
+    "id": 78,
     "name": "Ravonna",
-    "history": "Ravonna é serva do Kang, sendo líder da AVT, tambem enganada quer descobrir a verdade sobre Kang e seu propósito na agência.",
     "img": "https://assets3.thrillist.com/v1/image/2984703/414x310/crop;webp=auto;jpeg_quality=60;progressive.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Loki: Temporada 1"
-    ],
     "teory": null
   },
   {
-    "id": 5,
+    "id": 79,
     "name": "Hunter B-15",
-    "history": "Hunter B-15 é agente da AVT, depois de descobrir que é enganada pela AVT ajuda Loki a fungir. Junto com Morbius tenta impedir a AVT e controlar as ramificações depois da morte de Kang.",
     "img": "https://cm-santiago-do-cacem.pt/img/sci-fi/82/loki-director-dismisses-fan-theory-about-one-loki-variant-ahead-final-episode.jpg",
+    "img2": null,
     "faseOne": false,
     "faseTwo": false,
     "faseThree": false,
     "faseFour": true,
-    "films": [
-      "Loki: Temporada 1"
-    ],
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Classic Loki",
+    "img": "https://www.looper.com/img/gallery/loki-episode-5-ending-explained/intro-1625664368.jpg",
+    "img2": null,
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Gaviã Arqueira",
+    "img": "https://disneyplusbrasil.com.br/wp-content/uploads/2021/09/Kate-Bishop-Bastidores-Gaviao-Arqueiro-1024x576.jpg",
+    "img2": null,
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Gavião Arqueiro",
+    "img": "https://rollingstone.uol.com.br/media/_versions/ator_jeremy_renner_como_clint_barton_na_serie_gaviao_arqueiro_foto_reproducao_widelg.png",
+    "img2": null,
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Laura Barton",
+    "img": "https://technewsbrasil.com.br/wp-content/uploads/2021/12/agente-19.jpg",
+    "img2": null,
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": "O relógio que pegou pode ser alguma arma da SHIELD, pode ser que ainda trabalhe para a SHIELD"
+  },
+  {
+    "id": 80,
+    "name": "Echo",
+    "img": "https://entretenimento.plu7.com/wp-content/uploads/2021/12/Os-diretores-da-Hawkeye-falam-sobre-Superpoder-Trick-Arrows-e.jpg",
+    "img2": null,
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Rei do Crime",
+    "img": "https://noticiasdatv.uol.com.br/media/_versions/artigos_2021/gaviao-arqueiro-1x06-vicent-donofrio-foto-divulgacao-marvel-studios_fixed_large.jpg",
+    "img2": null,
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Lila Barton",
+    "img": "https://static.tvmaze.com/uploads/images/medium_portrait/377/944721.jpg",
+    "img2": null,
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Jack Duquesne (Espadachim)",
+    "img": "https://epipoca.com.br/wp-content/uploads/2021/11/Jack-Duquesne-Tony-Dalton-em-Gaviao-Arqueiro-Reproducao.jpg",
+    "img2": "https://kanto.legiaodosherois.com.br/w760-h398-cfill/wp-content/uploads/2021/12/legiao_uB_AciF1Cxml.png.jpeg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Eleanor Bishop",
+    "img": "https://64.media.tumblr.com/f4b5ebd0154c43a13c013c674b450d9e/bc8cb11f168ec877-d5/s540x810/1462cf57d1a4d483e7456790e9b32d6b5bc74aec.png",
+    "img2": null,
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Kazi",
+    "img": "https://epipoca.com.br/wp-content/uploads/2021/12/Kazi-Fra-Fee-em-Gaviao-Arqueiro-Reproducao-1-1200x900.jpeg",
+    "img2": null,
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Lucky (Pizza Dog)",
+    "img": "https://epipoca.com.br/wp-content/uploads/2021/09/Lucky-the-Pizza-Dog-hawkeye-14092021.jpg",
+    "img2": "https://marvelblog.com/wp-content/uploads/2020/12/lucky-hawkeye-2012.jpeg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Cavaleiro da Lua",
+    "img": "https://ogimg.infoglobo.com.br/cultura/revista-da-tv/25359096-f49-939/FT1086A/moonknight.png",
+    "img2": "https://www.arrobanerd.com.br/wp-content/uploads/2022/03/quem-e%CC%81-o-cavaleiro-da-lua-e-onde-ele-esta%CC%81-na-linha-do-tempo-do-MCU.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Khonshu",
+    "img": "https://www.latercera.com/resizer/Vh2jxLVg7LwE_fhtSbMrA9Sq__E=/arc-anglerfish-arc2-prod-copesa/public/MMIQKB4OJ5AOBK7DABN32BXTCI.jpg",
+    "img2": "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/01/19/1561900869.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Arthur Harrow",
+    "img": "http://disneyplusbrasil.com.br/wp-content/uploads/2022/04/Arthur-Harrow-Cavaleiro-da-Lua-1.jpg",
+    "img2": "https://comicbookrealm.com/character-photos/character_58370_f.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Layla El-Faouly",
+    "img": "https://pipocasclub.com.br/wp-content/uploads/2022/03/moon-knight-may-calamawy-layla-1024x512.jpg",
+    "img2": null,
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Crawley",
+    "img": "https://epipoca.com.br/wp-content/uploads/2022/04/Crawley-em-Cavaleiro-da-Lua-Reproducao.jpg",
+    "img2": "https://legadodamarvel.com.br/wp-content/uploads/2022/04/crawley-comics-quadrinhos-hq-cavaleiro-da-lua-legadodamarvel.webp",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
     "teory": null
   }
 ]

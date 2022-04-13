@@ -24,6 +24,10 @@ export const Title = styled.div`
   font-family: 'Marvel';
   font-size: ${px2vw(20)};
   margin: ${px2vw(30)} ${px2vw(50)};
+
+  display: flex;
+  gap: ${px2vw(10)};
+  align-items: center;
 `;
 
 export const SectionImages = styled.div`
@@ -34,11 +38,13 @@ export const SectionImages = styled.div`
 export const ContentPersona = styled.img`
   width: ${px2vw(100)};
   height: ${px2vw(120)};
-  object-fit: cover;
   margin-right: ${px2vw(5.7)};
   margin-left: ${px2vw(5.7)};
   margin-bottom: ${px2vw(5)};
+
   box-shadow: 0 0 4px var(--primaryColor);
+  background-color: #fff;
+  object-fit: cover;
 
   transition: all 0.3s ease-in-out;
   cursor: pointer;
@@ -58,7 +64,7 @@ export const ImagePersona = styled.img`
 //---------------------------------
 
 export const Image = styled.img`
-  width: 100%;
+  width: ${px2vw(239)};
   height: 100%;
   border-radius: ${px2vw(24)};
   margin-right: auto;
@@ -69,4 +75,5 @@ export const ImageMenor = styled.img`
   width: ${px2vw(50)};
   height: ${px2vw(50)};
   object-fit: cover;
+  background-color: #fff;
 `;

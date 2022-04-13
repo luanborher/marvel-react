@@ -1,4 +1,4 @@
-import { Close, HeaderNavbar, Image, Links, Logo, Navigation } from './styles';
+import { Close, HeaderNavbar, Image, Links, Logo } from './styles';
 import ButtonLink from '../Button';
 
 interface Props {
@@ -11,7 +11,7 @@ const Navbar = ({ active }: Props) => (
       src="https://logodownload.org/wp-content/uploads/2017/05/marvel-logo.png"
       alt="logotipo da marvel"
     />
-    <Navigation>
+    <div>
       <Links>
         <ButtonLink active={active === 'Filmes'} route="Filmes">
           FILMES E SÉRIES
@@ -30,7 +30,7 @@ const Navbar = ({ active }: Props) => (
           </ButtonLink>
         </Close>
       </Links>
-    </Navigation>
+    </div>
   </HeaderNavbar>
 );
 

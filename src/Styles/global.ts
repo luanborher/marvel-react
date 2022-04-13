@@ -1,5 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 
+export const px2vw = (size: number, width = 1440) =>
+  `${(size / width) * 100}vw`;
+
 export default createGlobalStyle`
   :root{
     --primaryColor: #ff0000;
@@ -18,6 +21,10 @@ export default createGlobalStyle`
     background-color: #111111;
   }
 
+  div {
+    display: initial;
+  }
+
   @keyframes fade{
     0% {
       opacity:0
@@ -27,6 +34,3 @@ export default createGlobalStyle`
     }
   }
 `;
-
-export const px2vw = (size: number, width = 1440) =>
-  `${(size / width) * 100}vw`;

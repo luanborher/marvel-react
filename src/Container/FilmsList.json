@@ -60,8 +60,8 @@
   },
   {
     "id": 114,
-    "title": "Falcão e o Soldado Invernal",
-    "text": "Falcão e Solodado Invernal com ajuda de Barão Zemo, obrigados a formar dupla para derrotar um grupo terrorista que usa uma droga de super força. Um novo capitão america é criado mas falha em ser capitão, se corrompe com a droga e vira o Agente Americano recrutado por Fontaine.",
+    "title": "Falcão e Soldado Invernal",
+    "text": "Falcão e Soldado Invernal com ajuda de Barão Zemo, obrigados a trabalhar juntos para derrotar um grupo terrorista que usa super soro. Um novo capitão America é criado mas falha e se corrompe com a droga, vira o Agente Americano recrutado por Valentine. Sam se torna o Capitão America.",
     "image": "https://br.web.img3.acsta.net/pictures/20/12/11/01/46/4588265.jpg",
     "galery": [
       "https://kanto.legiaodosherois.com.br/w1200-h628-cfill/wp-content/uploads/2021/04/legiao_reRNylGTPizI.jpg.jpeg",
@@ -113,8 +113,31 @@
     "link": "https://www.disneyplus.com/pt-br/movies/viuva-negra/3VfTap90rwZC",
     "category": "Série",
     "fase": 4,
+    "note": [1, 2, 3],
+    "teory": "Yelena Belova"
+  },
+  {
+    "id": 114,
+    "title": "Howkeye",
+    "text": "Uma jovem aspirante a heroina acaba entrando em uma encrenca por usar da roupa do Ronin, Clint ajuda ela mas juntos entram na mira da gangue do agasalho que tem relação com Rei do Crime, Kate descobre que sua mãe trabalha para ele. Kate e Clin juntos prendem e entregam todos para a policia antes do Natal chegar.",
+    "image": "https://www.brickfanatics.com/wp-content/uploads/Hawkeye-poster.jpg",
+    "galery": [
+      "https://images.thedirect.com/media/photos/FEZ8cBrVEAYLO5J.jpg",
+      "https://images.thedirect.com/media/photos/FEZ8N5rVIAoHOTn.jpg",
+      "https://images.thedirect.com/media/photos/FEZ8isyVUAYlTq_.jpg",
+      "https://p2.trrsf.com/image/fget/cf/648/0/images.terra.com/2021/12/20/500371926-hawkeye-yelena-poster.jpg",
+      "https://legadodamarvel.com.br/wp-content/uploads/2021/11/gangue-do-agasalho-poster-gaviao-arqueiro-legadodamarvel.jpg",
+      "https://media.fstatic.com/rAMLp7W-rkT5Tn3VK2waa-yT6YA=/210x312/smart/media/movies/covers/2021/12/FF72N5QVkAE_uNo.jpg",
+      "https://media.fstatic.com/giB8vCUZsQXpzBEZ9sH9WbPJOqo=/210x312/smart/media/movies/covers/2021/12/kok.jpg",
+      "https://media.fstatic.com/dAxzfeIL4s00jYMJxKnb3jJ5PIM=/210x312/smart/media/movies/covers/2021/12/FF72PizVcAsJ4Yf.jpg",
+      "https://media.fstatic.com/gFD0f2vqXJFygnQThZXNDB1viYk=/210x312/smart/media/movies/covers/2021/12/kkk.jpg",
+      "https://images.thedirect.com/media/photos/hawkeyeposters.jpg"
+    ],
+    "link": "https://www.disneyplus.com/pt-br/series/gaviao-arqueiro/11Zy8m9Dkj5l",
+    "category": "Série",
+    "fase": 4,
     "note": [1, 2, 3, 4],
-    "teory": null
+    "teory": "Kate tem ligação com Yelena Belova, irmã de Natasha que virou a Viúva Negra, e juntas podem entrar para um grupo de herois no futuro."
   },
   {
     "id": 114,
@@ -126,7 +149,8 @@
       "https://blogger.googleusercontent.com/img/a/AVvXsEh0-vNVhAoN2gfY1Iw9nreMTyU-Lq9VgjjehhXUNp2wgzUwOnovGUR0eyI5kQlkxcgFCL85-2YHXWk9g8ImUKtTUKIDKZ3E5MpViedFBIDW6d5QVPwx9Zl0pjUOhkRYVU2vh4UTMpcDNK1JwzaRb4L9XeVFCAkH2AqAW0rF0cyIUFsQ-wJALA=s16000",
       "https://olhardigital.com.br/wp-content/uploads/2022/01/Captura-de-Tela-2022-01-18-a%CC%80s-07.22.09-1024x527.png",
       "https://ovicio.com.br/wp-content/uploads/2022/03/20220327-picsart_22-03-27_17-23-41-436-1.jpg",
-      "https://uploads.jovemnerd.com.br/wp-content/uploads/2022/01/cavaleiro-da-lua-ethan-hawke-vilao.jpg"
+      "https://uploads.jovemnerd.com.br/wp-content/uploads/2022/01/cavaleiro-da-lua-ethan-hawke-vilao.jpg",
+      "https://images.thedirect.com/media/photos/FEZ8cBrVEAYLO5J.jpg"
     ],
     "link": "https://www.disneyplus.com/pt-br/series/cavaleiro-da-lua/4S3oOF1knocS",
     "category": "Série",

@@ -21,13 +21,12 @@ export interface ResponseFilmsMarvel {
 export interface ResponsePersonaMarvel {
   id: number;
   name: string;
-  history: string;
   img: string;
+  img2: string | null;
   faseOne: boolean;
   faseTwo: boolean;
   faseThree: boolean;
   faseFour: boolean;
-  films: string[];
   teory: string | null;
 }
 
