@@ -26,8 +26,9 @@ export const Home = () => {
         <SectionImages>
           {persona
             .filter(item => item.faseFour === true)
-            .map(item => (
+            .map((item, index) => (
               <ContentPersona
+                key={+index}
                 src={!show ? item.img : item.img2 ?? item.img}
                 alt="personagens"
               />

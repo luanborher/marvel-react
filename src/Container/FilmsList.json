@@ -8,7 +8,12 @@
     "link": "https://www.disneyplus.com/pt-br/movies/homem-de-ferro-da-marvel-studios/6aM2a8mZATiu",
     "category": "Filme",
     "fase": 1,
-    "note": [1, 2, 3, 4],
+    "note": [
+      1,
+      2,
+      3,
+      4
+    ],
     "teory": null
   },
   {
@@ -20,7 +25,11 @@
     "link": "https://www.disneyplus.com/pt-br/movies/homem-de-ferro-2-da-marvel-studios/lXjCr9QmGGQJ",
     "category": "Filme",
     "fase": 1,
-    "note": [1, 2, 3],
+    "note": [
+      1,
+      2,
+      3
+    ],
     "teory": null
   },
   {
@@ -32,7 +41,12 @@
     "link": "https://www.disneyplus.com/pt-br/movies/thor-da-marvel-studios/1p4vdKzTuhzr",
     "category": "Filme",
     "fase": 1,
-    "note": [1, 2, 3, 4],
+    "note": [
+      1,
+      2,
+      3,
+      4
+    ],
     "teory": null
   },
   {
@@ -55,7 +69,12 @@
     "link": "https://www.disneyplus.com/pt-br/series/wandavision/4SrN28ZjDLwH",
     "category": "Série",
     "fase": 4,
-    "note": [1, 2, 3, 4],
+    "note": [
+      1,
+      2,
+      3,
+      4
+    ],
     "teory": "Wanda pode reescrever todo o multiverso e trazer mutantes para esse universo e ajudará Doutor Estranho no multiverso da loucura."
   },
   {
@@ -78,7 +97,11 @@
     "link": "https://www.disneyplus.com/pt-br/series/falcao-e-o-soldado-invernal/4gglDBMx8icA",
     "category": "Série",
     "fase": 4,
-    "note": [1, 2, 3],
+    "note": [
+      1,
+      2,
+      3
+    ],
     "teory": null
   },
   {
@@ -101,7 +124,12 @@
     "link": "https://www.disneyplus.com/pt-br/series/loki/6pARMvILBGzF",
     "category": "Série",
     "fase": 4,
-    "note": [1, 2, 3, 4],
+    "note": [
+      1,
+      2,
+      3,
+      4
+    ],
     "teory": "Kong, O Conquistador poderá ser o mais novo vilão do UCM trazendo a guerra multiversal. O Kid Loki pode entrar para um possível Jovens Vingadores. "
   },
   {
@@ -113,7 +141,11 @@
     "link": "https://www.disneyplus.com/pt-br/movies/viuva-negra/3VfTap90rwZC",
     "category": "Série",
     "fase": 4,
-    "note": [1, 2, 3],
+    "note": [
+      1,
+      2,
+      3
+    ],
     "teory": "Yelena Belova"
   },
   {
@@ -136,26 +168,40 @@
     "link": "https://www.disneyplus.com/pt-br/series/gaviao-arqueiro/11Zy8m9Dkj5l",
     "category": "Série",
     "fase": 4,
-    "note": [1, 2, 3, 4],
+    "note": [
+      1,
+      2,
+      3,
+      4
+    ],
     "teory": "Kate tem ligação com Yelena Belova, irmã de Natasha que virou a Viúva Negra, e juntas podem entrar para um grupo de herois no futuro."
   },
   {
     "id": 114,
     "title": "Cavaleiro da Lua",
-    "text": "A trama acompanha Steven Grant, um homem gentil e simpático, que trabalha em uma loja de presentes. Ele é uma pessoa comum, mas que sofre com constantes “apagões” e tem memórias que parecem ser de uma vida que não é a sua.",
+    "text": "A trama acompanha Steven Grant, um homem gentil e simpático, que trabalha em uma loja de presentes. Ele é uma pessoa comum, mas que sofre com constantes “apagões” e tem memórias que parecem ser de uma vida que não é a sua com constantes “apagões” e tem memórias que parecem ser de uma vida que não é a sua e ainda tem mais pra acontecer no futuro.",
     "image": "https://cafecomnerd.com.br/wp-content/uploads/2022/03/Cavaleiro-da-Lua-serie-poster-mr-knight.jpeg",
     "galery": [
-      "https://rollingstone.uol.com.br/media/_versions/oscar_isaac_em_cavaleiro_da_lua_foto_divulgacao_marvel_widelg.jpg",
-      "https://blogger.googleusercontent.com/img/a/AVvXsEh0-vNVhAoN2gfY1Iw9nreMTyU-Lq9VgjjehhXUNp2wgzUwOnovGUR0eyI5kQlkxcgFCL85-2YHXWk9g8ImUKtTUKIDKZ3E5MpViedFBIDW6d5QVPwx9Zl0pjUOhkRYVU2vh4UTMpcDNK1JwzaRb4L9XeVFCAkH2AqAW0rF0cyIUFsQ-wJALA=s16000",
-      "https://olhardigital.com.br/wp-content/uploads/2022/01/Captura-de-Tela-2022-01-18-a%CC%80s-07.22.09-1024x527.png",
-      "https://ovicio.com.br/wp-content/uploads/2022/03/20220327-picsart_22-03-27_17-23-41-436-1.jpg",
-      "https://uploads.jovemnerd.com.br/wp-content/uploads/2022/01/cavaleiro-da-lua-ethan-hawke-vilao.jpg",
-      "https://images.thedirect.com/media/photos/FEZ8cBrVEAYLO5J.jpg"
+      "https://pbs.twimg.com/media/FNgAtIEVEAMr04f?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FNgAy4XVgAQfIFf?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FNgAy4JVkAs-Rbz?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FNgAtIEVEAMr04f?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FNgAtIEVEAMr04f?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FNgAtIEVEAMr04f?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FNgAtIEVEAMr04f?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FNgAtIEVEAMr04f?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FNgAtIEVEAMr04f?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FNgAtIEVEAMr04f?format=jpg&name=large"
     ],
     "link": "https://www.disneyplus.com/pt-br/series/cavaleiro-da-lua/4S3oOF1knocS",
     "category": "Série",
     "fase": 4,
-    "note": [1, 2, 3, 4],
+    "note": [
+      1,
+      2,
+      3,
+      4
+    ],
     "teory": null
   }
 ]

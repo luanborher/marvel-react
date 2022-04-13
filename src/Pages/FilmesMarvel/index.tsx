@@ -61,7 +61,7 @@ export const Filmes = () => {
       .map((film, index) => {
         if (index >= currentOne && index < currentOne + 4) {
           return (
-            <Slider currentSlide="active">
+            <Slider currentSlide="active" key={+index}>
               <Card>
                 <Image src={film.image} alt={film.title} />
                 <ContainerInfoCard>
@@ -88,7 +88,7 @@ export const Filmes = () => {
       .map((film, index) => {
         if (index >= currentFour && index < currentFour + 4) {
           return (
-            <Slider currentSlide="active">
+            <Slider currentSlide="active" key={+index}>
               <Card>
                 <Image src={film.image} alt={film.title} />
                 <ContainerInfoCard>

@@ -16,19 +16,11 @@ const teste = keyframes`
 const walk = keyframes`
     0% {
       margin-left: 50vw;
-      margin-top: ${px2vw(550)};
-    }
-    10% {
-      margin-left: 65vw;
-      margin-top: ${px2vw(550)};
-    }
-    40% {
-      margin-left: 0vw;
-      margin-top: ${px2vw(550)};
+      margin-top: ${px2vw(100)};
     }
     70% {
       margin-left: 0vw;
-      margin-top: ${px2vw(550)};
+      margin-top: ${px2vw(100)};
     }
     100% {
       margin-left: 0vw;
@@ -61,7 +53,7 @@ export const Logo = styled.div`
   justify-content: center;
   align-items: center;
 
-  background: var(--primaryColor);
+  background: url('https://logodownload.org/wp-content/uploads/2017/05/marvel-logo.png');
   margin-bottom: ${px2vw(38)};
   width: ${px2vw(198)};
   height: ${px2vw(80)};
@@ -70,7 +62,7 @@ export const Logo = styled.div`
   animation-duration: 2s;
 `;
 
-export const Text = styled.text`
+export const Text = styled.div`
   color: white;
   font-size: ${px2vw(60)};
   font-family: 'Marvel';
@@ -87,57 +79,6 @@ export const Form = styled.form`
   animation-duration: 4s;
 `;
 
-export const Option = styled.div`
-  display: flex;
-  justify-content: space-around;
-
-  font-size: ${px2vw(14)};
-  width: 100%;
-  color: var(--secondColor);
-  margin: ${px2vw(12)} 0;
-
-  div {
-  }
-`;
-
-export const Subli = styled.div`
-  text-decoration: underline;
-  text-decoration-color: var(--primaryColor);
-  cursor: pointer;
-
-  &:hover {
-    opacity: 0.7;
-  }
-`;
-
-export const Title = styled.label`
-  color: var(--primaryColor);
-  font-size: ${px2vw(22)};
-  align-self: flex-start;
-  padding: 0 0 0 ${px2vw(6)};
-`;
-
-export const SubTitle = styled.label`
-  color: var(--secondColor);
-  font-size: ${px2vw(16)};
-  align-self: flex-start;
-  padding: 0 0 ${px2vw(6)} ${px2vw(6)};
-`;
-
-export const Input = styled.input`
-  padding: 0 ${px2vw(18)};
-  width: ${px2vw(288)};
-  border-radius: ${px2vw(46)};
-  height: ${px2vw(56)};
-  font-size: ${px2vw(16)};
-  color: var(--secondColor);
-  margin: ${px2vw(8)} 0;
-  outline: none;
-  border: ${px2vw(1)} solid black;
-`;
-
-export const Div = styled.div``;
-
 export const Button = styled.button`
   border: 0;
   border-radius: ${px2vw(46)};
@@ -150,21 +91,5 @@ export const Button = styled.button`
 
   &:hover {
     opacity: 0.7;
-  }
-`;
-
-export const P = styled.p`
-  color: var(--secondColor);
-  margin: ${px2vw(18)} 0 0 0;
-  display: flex;
-  gap: ${px2vw(4)};
-  font-size: ${px2vw(14)};
-
-  > div {
-    color: var(--primaryColor);
-
-    &:hover {
-      opacity: 0.7;
-    }
   }
 `;
