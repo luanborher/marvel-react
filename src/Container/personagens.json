@@ -342,6 +342,83 @@
   },
   {
     "id": 80,
+    "name": "Viúva Negra",
+    "img": "https://i.pinimg.com/originals/ea/26/d8/ea26d8562b5746342c39b99ac01d9883.png",
+    "img2": "https://1.bp.blogspot.com/-tU0JLdYt6Wg/XiBwP727qvI/AAAAAAACAiI/6hVUOa7L9nI7w5s4jQdFEQKcoKpt2xVAgCLcBGAsYHQ/s1600/viv1.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Guardião Vermelho",
+    "img": "https://ovicio.com.br/wp-content/uploads/2019/12/20191203-black-widow-red-guardian-david-harbour-1198494-555x555.jpeg",
+    "img2": "https://sm.ign.com/ign_br/feature/w/who-is-dav/who-is-david-harbour-in-black-widow-red-guardian-explained_mkzs.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "O Treinador",
+    "img": "https://1.bp.blogspot.com/-mZEnVh3cqDs/YNerq51DFZI/AAAAAAAAK6c/yUuAFuqNNtwuTTc7DH0Ln_SnLMnZXVnOACLcBGAsYHQ/s2048/20210626_192518_0000.png",
+    "img2": "https://www.comicbasics.com/wp-content/uploads/2017/09/Taskmaster-678x381.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Melina Vostokoff",
+    "img": "https://1.bp.blogspot.com/-KLmUzudNxJo/X7PO_6GbF2I/AAAAAAACHDc/cGuevmJjOIkLBMWE_VSmSlGIVYplon8kQCLcBGAsYHQ/s540/melina.jpg",
+    "img2": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/02/Iron-Maiden-Feature.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Dreykov",
+    "img": "https://observatoriodocinema.uol.com.br/wp-content/uploads/2020/03/ray-winstone.jpeg",
+    "img2": "https://1.bp.blogspot.com/-tU0JLdYt6Wg/XiBwP727qvI/AAAAAAACAiI/6hVUOa7L9nI7w5s4jQdFEQKcoKpt2xVAgCLcBGAsYHQ/s1600/viv1.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Rick Mason",
+    "img": "https://observatoriodocinema.uol.com.br/wp-content/uploads/2021/07/ot-fagbenle-viuva-negra.jpg",
+    "img2": "https://1.bp.blogspot.com/-tU0JLdYt6Wg/XiBwP727qvI/AAAAAAACAiI/6hVUOa7L9nI7w5s4jQdFEQKcoKpt2xVAgCLcBGAsYHQ/s1600/viv1.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
+    "name": "Yelena (Viúva Negra)",
+    "img": "https://noticiasdatv.uol.com.br/media/_versions/artigos_2021/florence-pugh-viuva-negra-marvel-studios_fixed_large.jpg",
+    "img2": "https://cmro.travis-starnes.com/images/characters/blackwidowyelenabelova2.jpg",
+    "faseOne": false,
+    "faseTwo": false,
+    "faseThree": false,
+    "faseFour": true,
+    "teory": null
+  },
+  {
+    "id": 80,
     "name": "Gaviã Arqueira",
     "img": "https://disneyplusbrasil.com.br/wp-content/uploads/2021/09/Kate-Bishop-Bastidores-Gaviao-Arqueiro-1024x576.jpg",
     "img2": null,
