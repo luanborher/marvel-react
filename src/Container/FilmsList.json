@@ -1,70 +1,20 @@
 [
   {
     "id": 114,
-    "title": "Homem de Ferro",
-    "text": "Quando é capturado em território inimigo, o genial magnata Tony Stark constrói uma armadura de alta tecnologia para escapar. Agora, ele tem a missão de salvar o mundo como um herói que não nasceu.",
-    "image": "https://img.elo7.com.br/product/zoom/1DFB189/poster-cartaz-iron-man-homem-de-ferro-poster-tematico.jpg",
-    "galery": [],
-    "link": "https://www.disneyplus.com/pt-br/movies/homem-de-ferro-da-marvel-studios/6aM2a8mZATiu",
-    "category": "Filme",
-    "fase": 1,
-    "note": [
-      1,
-      2,
-      3,
-      4
-    ],
-    "teory": null
-  },
-  {
-    "id": 114,
-    "title": "Homem de Ferro II",
-    "text": "Agora que sua identidade de super-herói foi revelada, Tony Stark mais uma vez tem que entrar na armadura e enfrentar seu mais perigoso inimigo, mas não sem ter alguns novos aliados.",
-    "image": "http://4.bp.blogspot.com/_NGxZghpc1m0/S7Nv0KfC7qI/AAAAAAAABJo/fVw-mNKatgw/s1600/homem_de_ferro2_poster_7.jpg",
-    "galery": [],
-    "link": "https://www.disneyplus.com/pt-br/movies/homem-de-ferro-2-da-marvel-studios/lXjCr9QmGGQJ",
-    "category": "Filme",
-    "fase": 1,
-    "note": [
-      1,
-      2,
-      3
-    ],
-    "teory": null
-  },
-  {
-    "id": 114,
-    "title": "Thor",
-    "text": "O Poderoso Thor está prestes a ascender ao trono do reino fantástico de Asgard, até que sua arrogância imprudente reacende uma guerra antiga. Logo Thor é banido para a Terra para viver entre os seres humanos.",
-    "image": "https://img.elo7.com.br/product/zoom/2678608/big-poster-filme-thor-2011-lo06-tamanho-90x60-cm-vingadores.jpg",
-    "galery": [],
-    "link": "https://www.disneyplus.com/pt-br/movies/thor-da-marvel-studios/1p4vdKzTuhzr",
-    "category": "Filme",
-    "fase": 1,
-    "note": [
-      1,
-      2,
-      3,
-      4
-    ],
-    "teory": null
-  },
-  {
-    "id": 114,
     "title": "WandaVision",
     "text": "Depois da morte de Visão Wanda cria uma cidade e uma familia com seus poderes, controlando todo mundo, é enganada por Agatha uma bruxa que quer roubar os poderes de Feiticeira Escarlate da Wanda que descobre quem é de verdade mas ela impede Agatha destruindo sua criação, depois se isola para estudar o darkhold e ter sua familia de volta.",
     "image": "https://img.elo7.com.br/product/original/3816CC2/big-poster-serie-wandavision-lo001-cartaz.jpg",
     "galery": [
-      "https://recreio.uol.com.br/media/_versions/legacy/2021/06/02/wandavision-1230176_widexl.jpg",
-      "https://ovicio.com.br/wp-content/uploads/2021/02/20210226-vision-marvel-555x555.jpeg",
-      "https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2021/10/Agatha-Harkness-WandaVision.jpg",
-      "https://geeksaw.com.br/wp-content/uploads/2021/03/wandavision-what-are-monica-rambeau-superpowers-explained-1259727.jpeg",
-      "https://thedirect.s3.amazonaws.com/media/photos/word3.jpg",
-      "https://terrigen-cdn-dev.marvel.com/content/prod/1x/jimmy.jpg",
-      "https://i.pinimg.com/originals/49/c7/d9/49c7d968406cca2084be5c7a13a839ce.jpg",
-      "https://64.media.tumblr.com/0790079876135580af67cc10aac73aaa/328608443cdaee45-17/s400x600/ecaa7abdfda1d343d70808f4da1e7c26533d356f.png",
-      "https://i.pinimg.com/originals/82/c0/e7/82c0e7697f761e93e99b445bd773ddc1.jpg",
-      "https://static.papergeek.fr/2021/03/Evan-Peters-Quicksilver-WandaVision.jpg"
+      "https://pbs.twimg.com/media/Eqp68UnXAAgg9Za?format=jpg&name=large",
+      "https://pbs.twimg.com/media/Eqp68UmXcAA63MD?format=jpg&name=large",
+      "https://pbs.twimg.com/media/Eqp686TWMAYK9WX?format=jpg&name=large",
+      "https://pbs.twimg.com/media/Eqp6853XUAA0CxY?format=jpg&name=large",
+      "https://terrigen-cdn-dev.marvel.com/content/prod/1x/wv_online.jpg",
+      "http://www.atoupeira.com.br/wp-content/uploads/2021/01/wandavision-poster-darcy-1-768x960.jpg",
+      "http://www.atoupeira.com.br/wp-content/uploads/2021/01/wandavision-poster-jimmy-woo-1-768x960.jpg",
+      "https://pbs.twimg.com/media/Eqp68UnXAAgg9Za?format=jpg&name=large",
+      "https://pbs.twimg.com/media/Eqp68UmXcAA63MD?format=jpg&name=large",
+      "https://pbs.twimg.com/media/Eqp686TWMAYK9WX?format=jpg&name=large"
     ],
     "link": "https://www.disneyplus.com/pt-br/series/wandavision/4SrN28ZjDLwH",
     "category": "Série",
@@ -83,16 +33,16 @@
     "text": "Falcão e Soldado Invernal com ajuda de Barão Zemo, obrigados a trabalhar juntos para derrotar um grupo terrorista que usa super soro. Um novo capitão America é criado mas falha e se corrompe com a droga, vira o Agente Americano recrutado por Valentine. Sam se torna o Capitão America.",
     "image": "https://br.web.img3.acsta.net/pictures/20/12/11/01/46/4588265.jpg",
     "galery": [
-      "https://kanto.legiaodosherois.com.br/w1200-h628-cfill/wp-content/uploads/2021/04/legiao_reRNylGTPizI.jpg.jpeg",
-      "https://kanto.legiaodosherois.com.br/w760-h398-cfill/wp-content/uploads/2021/04/legiao_vb4kWR6gX7VN.jpg.jpeg",
+      "https://sm.ign.com/t/ign_br/screenshot/default/wintersoldier-1615217300464_14c9.1080.jpg",
+      "https://sm.ign.com/t/ign_br/gallery/m/marvels-th/marvels-the-falcon-and-the-winter-soldier-character-posters_xmhj.1080.jpg",
+      "https://sm.ign.com/t/ign_br/screenshot/default/sharon-1615217306182_9u1w.1080.jpg",
+      "https://sm.ign.com/t/ign_br/screenshot/default/zemo-1615217357628_rkwr.1080.jpg",
+      "https://ovicio.com.br/wp-content/uploads/2021/03/20210328-us-agent.jpg",
+      "https://1.bp.blogspot.com/-oIKX2JsEJ-A/YHWJ__f4u0I/AAAAAAAAEN0/hdrCGn5M1HwFGg9yNJ2a7pysRC6-kZ4vACLcBGAsYHQ/s1461/IMG_20210412_233556.jpg",
+      "https://thedirect.s3.amazonaws.com/media/photos/EyMQwtdWUAAVB8V.jpg",
+      "https://ovicio.com.br/wp-content/uploads/2021/03/20210328-buckymcu.jpg",
       "https://disneyplusbrasil.com.br/wp-content/uploads/2021/04/Sharon-Carter-Vila-1024x576.jpg",
-      "https://cm-santiago-do-cacem.pt/img/sci-fi/10/meet-cast-marvel-s-falcon-4.jpg",
-      "https://observatoriodeseries.uol.com.br/wp-content/uploads/2021/06/Falcao-e-o-Soldado-Invernal.jpg",
-      "https://geeksinaction.com.br/wp-content/uploads/2021/03/brad2-752x440.jpg",
-      "https://epipoca.com.br/wp-content/uploads/2021/04/torres-1200x900.jpg",
-      "https://www.hqzona.com.br/wp-content/uploads/2021/03/83ef10d26b7dbebff34a04d80ca91870.png",
-      "https://disneyplusbrasil.com.br/wp-content/uploads/2021/04/Condessa-Valentina-Allegra-de-Fontaine-1024x633.jpg",
-      "https://noticiasdatv.uol.com.br/media/uploads/artigos/erin-kellyman-falcao-e-o-soldado-invernal-disney-plus.jpg"
+      "https://cm-santiago-do-cacem.pt/img/sci-fi/10/meet-cast-marvel-s-falcon-4.jpg"
     ],
     "link": "https://www.disneyplus.com/pt-br/series/falcao-e-o-soldado-invernal/4gglDBMx8icA",
     "category": "Série",
@@ -107,19 +57,19 @@
   {
     "id": 114,
     "title": "Loki",
-    "text": "Loki foi preso por virar uma ramificação do tempo, foi solto para ajudar a capturar outra versão sua mas acaba se juntando a ela. Juntos matam o Kang (O Conquistador), e logo depois disso multiversos são criados e Loki é enviado para outra ramificação.",
+    "text": "Loki foi preso por virar uma ramificação do tempo, foi solto para ajudar a capturar outra versão sua mas acaba se juntando a ela. Juntos tentam impedir quem controla a AVT e descobrem que Kang controla tudo e todos, então Sylvie mata Kang (O Conquistador), e logo depois disso multiversos são criados e Loki é enviado para outra ramificação.",
     "image": "https://br.web.img2.acsta.net/pictures/21/05/12/17/18/2995518.jpg",
     "galery": [
-      "https://tm.ibxk.com.br/2021/07/13/13122901829247.jpg?ims=1200x675",
+      "https://d17lbu6bbzbdc8.cloudfront.net/wp-content/uploads/2021/03/19093311/Loki-show-poster-disney-plus-featured.jpg",
       "https://media.comicbook.com/2021/06/lady-loki-sophia-di-martino-1273014-1280x0.jpeg",
       "https://disneyplusbrasil.com.br/wp-content/uploads/2021/06/Mobius-M.-Mobius-Loki-1024x576.jpg",
       "https://www.looper.com/img/gallery/richard-grants-hilarious-pitch-for-a-loki-spin-off-series/intro-1626188804.jpg",
-      "https://br.web.img3.acsta.net/newsv7/21/07/23/17/03/0057309.jpg",
       "https://www.looper.com/img/gallery/the-hilarious-way-miss-minutes-was-brought-to-life-in-loki-episode-2/l-intro-1623944364.jpg",
       "https://t.ctcdn.com.br/KaAPfRmrF6kIZygkBPj_itWDBzE=/1x165:853x644/512x288/smart/filters:format(webp)/i475151.jpeg",
       "https://images.alphacoders.com/115/1150764.jpg",
       "https://br.web.img3.acsta.net/newsv7/21/07/26/18/49/2684291.jpg",
-      "https://www.sideshow.com/wp/wp-content/uploads/2021/07/Kid-Loki.jpeg"
+      "https://www.sideshow.com/wp/wp-content/uploads/2021/07/Kid-Loki.jpeg",
+      "https://br.web.img3.acsta.net/newsv7/21/07/23/17/03/0057309.jpg"
     ],
     "link": "https://www.disneyplus.com/pt-br/series/loki/6pARMvILBGzF",
     "category": "Série",
@@ -137,9 +87,20 @@
     "title": "Viúva Negra",
     "text": "Ao nascer, a Viúva Negra, então conhecida como Natasha Romanova, é entregue à KGB, que a prepara para se tornar sua agente suprema. Porém, o seu próprio governo tenta matá-la quando a União Soviética se desfaz.",
     "image": "https://i0.wp.com/www.popsfera.com.br/wp-content/uploads/2021/06/E6350E2B-45B1-4DBA-999A-BD34D797001D.jpeg?resize=691%2C1024&ssl=1",
-    "galery": [],
+    "galery": [
+      "https://vigilianerd.com.br/wp-content/uploads/2021/05/viuva-negra-cartaz-1-717x1024.jpg",
+      "https://vigilianerd.com.br/wp-content/uploads/2021/05/viuva-negra-cartaz-6-1-717x1024.jpg",
+      "https://vigilianerd.com.br/wp-content/uploads/2021/05/viuva-negra-cartaz-3-717x1024.jpg",
+      "https://vigilianerd.com.br/wp-content/uploads/2021/05/viuva-negra-cartaz-4-1-717x1024.jpg",
+      "https://vigilianerd.com.br/wp-content/uploads/2021/05/viuva-negra-cartaz-2-717x1024.jpg",
+      "https://vigilianerd.com.br/wp-content/uploads/2021/05/viuva-negra-cartaz-5-1-717x1024.jpg",
+      "https://1.bp.blogspot.com/-2shIjda7QVQ/YOJF5ioni6I/AAAAAAACOU4/9oNl2nOegusmew3e6vySwrcYgfQEPw7fACLcBGAsYHQ/s0/E5VgngKUYAAt-F1.jpg",
+      "https://cinema10.com.br/upload/noticias/2019-2/804009a15c.jpg",
+      "https://vigilianerd.com.br/wp-content/uploads/2021/05/viuva-negra-cartaz-1-717x1024.jpg",
+      "https://vigilianerd.com.br/wp-content/uploads/2021/05/viuva-negra-cartaz-6-1-717x1024.jpg"
+    ],
     "link": "https://www.disneyplus.com/pt-br/movies/viuva-negra/3VfTap90rwZC",
-    "category": "Série",
+    "category": "Filme",
     "fase": 4,
     "note": [
       1,
@@ -179,19 +140,19 @@
   {
     "id": 114,
     "title": "Cavaleiro da Lua",
-    "text": "A trama acompanha Steven Grant, um homem gentil e simpático, que trabalha em uma loja de presentes. Ele é uma pessoa comum, mas que sofre com constantes “apagões” e tem memórias que parecem ser de uma vida que não é a sua com constantes “apagões” e tem memórias que parecem ser de uma vida que não é a sua e ainda tem mais pra acontecer no futuro.",
-    "image": "https://cafecomnerd.com.br/wp-content/uploads/2022/03/Cavaleiro-da-Lua-serie-poster-mr-knight.jpeg",
+    "text": "Steve descobre que é avatar do Khonshu, um deus egípsio e que tem personalidades dentro dele. Ele precisa deter o avatar de uma deusa que trará uma justiça injusta ao mundo e Khonshu quer impedir isso mesmo com os outros deuses contra ele. Steve, Marc e Khonshu dividem o mesmo corpo.",
+    "image": "https://pbs.twimg.com/media/FMvWQCzVUAIvirc?format=jpg&name=large",
     "galery": [
       "https://pbs.twimg.com/media/FNgAtIEVEAMr04f?format=jpg&name=large",
       "https://pbs.twimg.com/media/FNgAy4XVgAQfIFf?format=jpg&name=large",
       "https://pbs.twimg.com/media/FNgAy4JVkAs-Rbz?format=jpg&name=large",
       "https://pbs.twimg.com/media/FNgAtIEVEAMr04f?format=jpg&name=large",
       "https://pbs.twimg.com/media/FNgAtIEVEAMr04f?format=jpg&name=large",
-      "https://pbs.twimg.com/media/FNgAtIEVEAMr04f?format=jpg&name=large",
-      "https://pbs.twimg.com/media/FNgAtIEVEAMr04f?format=jpg&name=large",
-      "https://pbs.twimg.com/media/FNgAtIEVEAMr04f?format=jpg&name=large",
-      "https://pbs.twimg.com/media/FNgAtIEVEAMr04f?format=jpg&name=large",
-      "https://pbs.twimg.com/media/FNgAtIEVEAMr04f?format=jpg&name=large"
+      "https://pbs.twimg.com/media/FPsOmBPVcAArh7C?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FQG02WGVkAI_3is?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FPJRo9AVsAEFOLk?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FO_CStHVIAUhyjG?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FPiqIsfVQAYntvj?format=jpg&name=large"
     ],
     "link": "https://www.disneyplus.com/pt-br/series/cavaleiro-da-lua/4S3oOF1knocS",
     "category": "Série",
@@ -201,6 +162,35 @@
       2,
       3,
       4
+    ],
+    "teory": null
+  },
+  {
+    "id": 114,
+    "title": "Doutor Estranho II",
+    "text": "Doutou Estanho no Multiverso da Loucura. o feitiço proibido mais perigoso em sua magia de manipular o tempo e o espaço abriu a porta para uma misteriosa loucura chamada “Multiverso”, isso fez um poderoso grupo de feiticeiros julgas os crimes de Strange que abriu as portas para multiversos perigosos.",
+    "image": "https://pbs.twimg.com/media/FPn5XwMVgAE8v2x?format=jpg&name=large",
+    "galery": [
+      "https://pbs.twimg.com/media/FQEiiBGWYAYJyPD?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FQEi4EdXIAAGarr?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FQEi_xnXEAYanIg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FQEjGCnacAIKsVI?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FQEjNSLagAg4Wge?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FQEjTpGXIAM4osb?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FQEiiBGWYAYJyPD?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FQEi4EdXIAAGarr?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FQEi_xnXEAYanIg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/FQEjGCnacAIKsVI?format=jpg&name=large"
+    ],
+    "link": "",
+    "category": "Filme",
+    "fase": 4,
+    "note": [
+      1,
+      2,
+      3,
+      4,
+      5
     ],
     "teory": null
   }
