@@ -24,7 +24,7 @@ export const Filmes = () => {
   const [currentFour, setCurrentFour] = useState(0);
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [filmsInspect, setFilmsInspect] = useState<ResponseFilmsMarvel>();
-  const { films } = useAuth();
+  const { films, filmsDC } = useAuth();
 
   const handleOpenDetails = (data: ResponseFilmsMarvel) => {
     setFilmsInspect(data);
@@ -83,30 +83,26 @@ export const Filmes = () => {
   };
 
   const renderFaseFour = () => {
-    return films
-      .filter(item => item.fase === 4)
-      .map((film, index) => {
-        if (index >= currentFour && index < currentFour + 4) {
-          return (
-            <Slider currentSlide="active" key={+index}>
-              <Card>
-                <Image src={film.image} alt={film.title} />
-                <ContainerInfoCard>
-                  <div>
-                    <Heading>{film.title}</Heading>
-                    <Paragraph>{film.text}</Paragraph>
-                  </div>
-                  <Span onClick={() => handleOpenDetails(film)}>
-                    ver detalhes
-                  </Span>
-                </ContainerInfoCard>
-              </Card>
-            </Slider>
-          );
-        }
+    return filmsDC.map((film, index) => {
+      if (index >= currentFour && index < currentFour + 4) {
+        return (
+          <Slider currentSlide="active" key={+index}>
+            <Card>
+              <Image src={film.image} alt={film.title} />
+              <ContainerInfoCard>
+                <div>
+                  <Heading>{film.title}</Heading>
+                  <Paragraph>{film.text}</Paragraph>
+                </div>
+                <Span>ver detalhes</Span>
+              </ContainerInfoCard>
+            </Card>
+          </Slider>
+        );
+      }
 
-        return null;
-      });
+      return null;
+    });
   };
 
   const renderArrowLeftOne = () => {
@@ -183,7 +179,7 @@ export const Filmes = () => {
 
         <div className="main-component">
           <div className="title">
-            Universo Cinematográfico da Marvel: Fase 1
+            Universo Cinematográfico da DC: Temporário
           </div>
           <Section>
             <ContainerCard>

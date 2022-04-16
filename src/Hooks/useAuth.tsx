@@ -2,8 +2,9 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
 
 import { DataLogin } from '../Pages/Login';
-import FilmsList from '../Container/FilmsList.json';
-import PersonaList from '../Container/personagens.json';
+import FilmsMarvel from '../Container/filmsMarvel.json';
+import PersonaMarvel from '../Container/personagens.json';
+import FilmsDC from '../Container/filmsDC.json';
 
 export interface ResponseFilmsMarvel {
   id: number;
@@ -16,6 +17,15 @@ export interface ResponseFilmsMarvel {
   fase: number;
   note: number[];
   teory: string | null;
+}
+
+export interface ResponseFilmsDC {
+  id: number;
+  title: string;
+  text: string;
+  image: string;
+  galery: string[];
+  note: number[];
 }
 
 export interface ResponsePersonaMarvel {
@@ -34,18 +44,22 @@ interface IUserProvider {
   user: DataLogin;
   films: ResponseFilmsMarvel[];
   persona: ResponsePersonaMarvel[];
+  filmsDC: ResponseFilmsDC[];
 
   setUser: React.Dispatch<React.SetStateAction<DataLogin>>;
   setFilms: React.Dispatch<React.SetStateAction<ResponseFilmsMarvel[]>>;
   setPersona: React.Dispatch<React.SetStateAction<ResponsePersonaMarvel[]>>;
+  setFilmsDC: React.Dispatch<React.SetStateAction<ResponseFilmsDC[]>>;
 }
 
 const AuthContext = createContext({} as IUserProvider);
 
 const AuthProvider: React.FC = ({ children }) => {
   const [user, setUser] = useState<DataLogin>({} as DataLogin);
-  const [films, setFilms] = useState<ResponseFilmsMarvel[]>(FilmsList);
-  const [persona, setPersona] = useState<ResponsePersonaMarvel[]>(PersonaList);
+  const [films, setFilms] = useState<ResponseFilmsMarvel[]>(FilmsMarvel);
+  const [persona, setPersona] =
+    useState<ResponsePersonaMarvel[]>(PersonaMarvel);
+  const [filmsDC, setFilmsDC] = useState<ResponseFilmsDC[]>(FilmsDC);
 
   useEffect(() => {
     const dataUser = localStorage.getItem('@Marvel: user');
@@ -54,12 +68,21 @@ const AuthProvider: React.FC = ({ children }) => {
       setUser(JSON.parse(dataUser));
     }
 
-    setFilms(FilmsList);
+    setFilms(FilmsMarvel);
   }, []);
 
   return (
     <AuthContext.Provider
-      value={{ user, setUser, films, setFilms, persona, setPersona }}
+      value={{
+        user,
+        setUser,
+        films,
+        setFilms,
+        persona,
+        setPersona,
+        filmsDC,
+        setFilmsDC,
+      }}
     >
       {children}
     </AuthContext.Provider>
