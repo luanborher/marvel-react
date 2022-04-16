@@ -56,33 +56,6 @@ export const Filmes = () => {
   };
 
   const renderFaseOne = () => {
-    return films
-      .filter(item => item.fase === 1)
-      .map((film, index) => {
-        if (index >= currentOne && index < currentOne + 4) {
-          return (
-            <Slider currentSlide="active" key={+index}>
-              <Card>
-                <Image src={film.image} alt={film.title} />
-                <ContainerInfoCard>
-                  <div>
-                    <Heading>{film.title}</Heading>
-                    <Paragraph>{film.text}</Paragraph>
-                  </div>
-                  <Span onClick={() => handleOpenDetails(film)}>
-                    ver detalhes
-                  </Span>
-                </ContainerInfoCard>
-              </Card>
-            </Slider>
-          );
-        }
-
-        return null;
-      });
-  };
-
-  const renderFaseFour = () => {
     return filmsDC.map((film, index) => {
       if (index >= currentFour && index < currentFour + 4) {
         return (
@@ -103,6 +76,33 @@ export const Filmes = () => {
 
       return null;
     });
+  };
+
+  const renderFaseFour = () => {
+    return films
+      .filter(item => item.fase === 4)
+      .map((film, index) => {
+        if (index >= currentFour && index < currentFour + 4) {
+          return (
+            <Slider currentSlide="active" key={+index}>
+              <Card>
+                <Image src={film.image} alt={film.title} />
+                <ContainerInfoCard>
+                  <div>
+                    <Heading>{film.title}</Heading>
+                    <Paragraph>{film.text}</Paragraph>
+                  </div>
+                  <Span onClick={() => handleOpenDetails(film)}>
+                    ver detalhes
+                  </Span>
+                </ContainerInfoCard>
+              </Card>
+            </Slider>
+          );
+        }
+
+        return null;
+      });
   };
 
   const renderArrowLeftOne = () => {
